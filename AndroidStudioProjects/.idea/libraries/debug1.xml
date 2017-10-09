@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="debug1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/ApkBandymai/app/build/intermediates/pre-dexed/debug/classes_6579638e67399b266c0171d44802036ca74cf1fc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ApkBandymai/app/build/intermediates/pre-dexed/debug/classes_82b33383cca60ec7b90b3052a61572ae874f9dfb.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ApkBandymai/app/build/intermediates/pre-dexed/debug/support-annotations-25.3.1_14f674adfa3f00f1bb017091c70367a2bfbebe0e.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ApkBandymai/app/build/intermediates/pre-dexed/debug/classes_4653046db9fc24e0885726aac30b28ff0c2d928c.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ApkBandymai/app/build/intermediates/pre-dexed/debug/classes_5832dc1a3acf25665f84145ab544b708c10805ad.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ApkBandymai/app/build/intermediates/pre-dexed/debug/classes_903aea36f7763e96705021ec9e5bd0803c421520.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ApkBandymai/app/build/intermediates/pre-dexed/debug/classes_972b4bd323b46a149acea45791921c4e22c6ae06.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ApkBandymai/app/build/intermediates/pre-dexed/debug/debug_573d4b5ff03b3030db3a31a2a0f5764c19e569d3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ApkBandymai/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_9acabb75f6435df1663a679a6841fd81438d55e9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ApkBandymai/app/build/intermediates/pre-dexed/debug/classes_f8622a3d487e3e6c6380d80447a592b35a48bdb1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ApkBandymai/app/build/intermediates/pre-dexed/debug/classes_3480b781a8828f2361ff694d6140a2162b107da5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ApkBandymai/app/build/intermediates/pre-dexed/debug/classes_c9481ee171eaf8f7ec004d3a7931013ddf4c84c1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ApkBandymai/app/build/intermediates/pre-dexed/debug/classes_612cff92cccc3a87572959b4b847ff3bfb8375a9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
