@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>PCR Works [Personal Computer Repair] </title>
+    <title>PCR Works [Kompiuterių remontas] </title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -37,10 +37,7 @@
           
           
           
-            <button class="buttonload">
-              <i class="fa fa-refresh fa-spin"></i>
-                <b> 
-            </button> PCR Works</b>
+          PCR Works
           
           
           
@@ -76,11 +73,26 @@
               Jūsų asmeninio ar įmonės kompiuterio remontas</h4>
           <hr>
             
-            <p>Puslapis ruošiamas</p>
-                 <h4>Remonto paslaugos ir konsultacijos:</h4>
+            
+            
+            
+            <button class="buttonload">
+            <i class="fa fa-spinner fa-spin"></i>   Puslapis ruošiamas
+                
+              
+                </button>
+            
+            
+            
+              <p>.....</p>
+            
+            
+            
+                 <h4>Remonto paslaugos ir konsultacijos</h4>
+                <h6>Kompiuterių ir mobiliųjų telefonų supirkimas ir pardavimas</h6>
             <p> </p>
-                    <h6>Marius +37064360440</h6>
-                    <h6>Saulius +37067467714</h6>
+                    <h6>Marius +37064360440; Saulius +37067467714</h6>
+                    <h6></h6>
             <p> </p>
             <p> </p>
          
@@ -99,11 +111,12 @@
             <hr class="light">
             <p class="text-faded">Kompiuterinių sistemų sutrikimų šalinimas</p>
             <a class="btn btn-default btn-xl js-scroll-trigger" href="#services">
-                <p>Periferinių ir tinklo komponentų sujungimas;</p>
+                <p>Windows sistemos diegimas, komponentų sujungimas;</p>
                 <p>Belaidžio ir laidinio tinklų, maršrutizatorių konfigūravimas;</p>
                 <p>Apsaugos nuo grėsmių įdiegimas, atnaujinimas;</p>
-                <p>Šiukšlių, virusų, kenkėjiškų programų ir pan. iš sistemos šalinimas;</p>
-                <p>Duomenų kopijų sukūrimas.</p>
+                <p>Virusų, kenkėjiškų programų ir pan. iš sistemos šalinimas;</p>
+                <p>Duomenų kopijų sukūrimas.
+                </p>
               </a>
           </div>
         </div>
@@ -131,12 +144,8 @@
             <div class="service-box">
               <i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i>
               <h3>.....</h3>
-              <p class="text-muted">Atvykimas Jums patogiu laiku</p>
-                <p>Mieste jeigu daugiau darbų - atvykimas nemokamas;
-                    Atvykimas už miesto ribų derinama atskiru susitarimu;
-                    Paimti įrenginį remontui ir pristatyti atgal (+pajungti);
-                    Suderinus laiką iš anksto (remonto darbus atlikti atvykus į vietą);
-                    Atvykimas savaitgaliais, švenčių dienomis, nedarbo laiku ir/arba skubus. </p>
+              <p class="text-muted">Atvykimas Jums patogiu laiku.</p>
+                <p>Mieste tvykimas nemokamas; </p>
             </div>
           </div>
 
@@ -144,10 +153,10 @@
             <div class="service-box">
               <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
               <h3>.....</h3>
-              <p class="text-muted">Papildomos paslaugos (elektros sistemų diegimas)</p>
-                <p>Skubus kompiuterio remontas (be eilės);
-                    Valandinis įkainis (patogiausia, kai susikaupia daug įvairių darbų);
-                    Komponentų perrinkimo, litavimo darbai ir t.t.</p>
+              <p class="text-muted">Papildomos paslaugos: elektros sistemų diegimas</p>
+                <p>Skubus kompiuterio remontas;
+        
+                    Komponentų perrinkimo, litavimo darbai</p>
             </div>
           </div>
           
@@ -155,8 +164,11 @@
             <div class="service-box">
               <i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i>
               <h3>.....</h3>
-              <p class="text-muted">Nuotolinė pagalba</p>
-                <p>internetu mano esamiems klientams nemokamai (suderinus laiką iš anksto); </p>
+              <p class="text-muted">Nuotolinė pagalba 
+                
+                
+                </p>
+                <p>"Team Viewer" paslauga. </p>
             </div>
           </div>
 
@@ -165,7 +177,7 @@
               <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
               <h3>.....</h3>
               <p class="text-muted">Konsultacijos bei patarimai</p>
-                <p>klientams - nemokamos konsultacijos telefonu ir el. paštu.</p>
+                <p>telefonu ir el. paštu.</p>
             </div>
           </div>
 
@@ -179,8 +191,8 @@
       <div class="container-fluid">
         <div class="row no-gutter popup-gallery">
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/computer-repair.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/computer-repair.jpg" alt="">
+            <a class="portfolio-box" href="img/portfolio/fullsize/1Capture.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/1Capture.jpg" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
@@ -227,13 +239,174 @@
                 </div>
               </div>
     
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+         <section class="p-0" id="portfolio">
+      <div class="container-fluid">
+        <div class="row no-gutter popup-gallery">
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/2Capture.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/2Capture.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Kategorija
+                  </div>
+                  <div class="project-name">
+                    Numeris
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/computer-hardware.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/computer-hardware.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Kategorija
+                  </div>
+                  <div class="project-name">
+                    Numeris
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/maxresdefault.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/maxresdefault.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Kategorija
+                  </div>
+                  <div class="project-name">
+                    Numeris
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+         
+                </div>
+              </div>
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
+              <section class="p-0" id="portfolio">
+      <div class="container-fluid">
+        <div class="row no-gutter popup-gallery">
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/3Capture.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/3Capture.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Kategorija
+                  </div>
+                  <div class="project-name">
+                    Numeris
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/computer-hardware.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/computer-hardware.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Kategorija
+                  </div>
+                  <div class="project-name">
+                    Numeris
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/maxresdefault.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/maxresdefault.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Kategorija
+                  </div>
+                  <div class="project-name">
+                    Numeris
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+         
+                </div>
+              </div>
+             
+             
+             
+             
+             
+             
+             
+             
+             
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
 
     <div class="call-to-action bg-dark">
       <div class="container text-center">
-        <h5>Tinklalapiai, programavimas
-            Viskas priklauso nuo modulių kiekio, programavimo sudėtingumo - teirautis (kaina sutartinė).
+        <h5>Tinklalapių programavimas ir talpinimas su Jūsų pasirinktu vardu.
+            ( Html5, Css, JavaScript,
+Jquery, Sql, Php ). 
+           
           </h5>
-        <a class="btn btn-default btn-nl sr-button" href=video.mp4>Video</a>
+        <a class="btn btn-default btn-nl sr-button" href=sjvideo.mp4>.....</a>
       </div>
     </div>
 
@@ -265,11 +438,7 @@
             
             
             
-            
-            
-            
-            
-            
+        
           <div class="col-lg-4 mr-auto text-center">
             <i class="fa fa-envelope-o fa-3x sr-contact"></i>
             
@@ -280,7 +449,7 @@
             </p>
               
             <p>
-              <a href="mailto:your-email@your-domain.com">sa8ulenas@gmail.com</a>
+              <a href="mailto:your-email@your-domain.com">pcr.saulius@gmail.com</a>
             </p>
           </div>
             
@@ -289,6 +458,50 @@
       
       <div>
       
+          
+            <div class="container text-center"> 
+                
+                
+                
+                
+      
+                
+                
+                
+                
+                  
+                <p><a href="mailto:your-email@your-domain.com">marius@pcrworks.we2host.lt</a> </p>
+                <p>Copyright "emc2" 2017</p> 
+                
+                
+                
+                
+                
+           
+                
+                
+                         
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+             
+                
+                
+                
+                
+                
+                
+                
+        </div>
+          
         </div>
        
       <section>
@@ -311,16 +524,16 @@
 
       
       
+        
+         
+        
+        
+        
       <div id="footer1">
           
           
           
-          
-          <div class="container text-center"> 
-                  
-                <p><a href="mailto:your-email@your-domain.com">marius@pcrworks.we2host.lt</a> </p>
-                <p>Copyright "emc2" 2017</p>      
-        </div>
+             
           
              
           
