@@ -191,12 +191,12 @@
       <div class="container-fluid">
         <div class="row no-gutter popup-gallery">
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/1Capture.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/1Capture.jpg" alt="">
+            <a class="portfolio-box" href="img/portfolio/fullsize/maxresdefault1.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/maxresdefault1.jpg" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
-                    Kategorija
+                    Dell 50 eur
                   </div>
                   <div class="project-name">
                     Numeris
@@ -206,12 +206,12 @@
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/computer-hardware.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/computer-hardware.jpg" alt="">
+            <a class="portfolio-box" href="img/portfolio/fullsize/maxresdefault2.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/maxresdefault2.jpg" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
-                    Kategorija
+                    Dell 50 eur
                   </div>
                   <div class="project-name">
                     Numeris
@@ -221,12 +221,12 @@
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/maxresdefault.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/maxresdefault.jpg" alt="">
+            <a class="portfolio-box" href="img/portfolio/fullsize/maxresdefault3.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/maxresdefault3.jpg" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
-                    Kategorija
+                    Dell 50 eur
                   </div>
                   <div class="project-name">
                     Numeris
@@ -260,12 +260,12 @@
       <div class="container-fluid">
         <div class="row no-gutter popup-gallery">
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/2Capture.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/2Capture.jpg" alt="">
+            <a class="portfolio-box" href="img/portfolio/fullsize/maxresdefault4.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/maxresdefault4.jpg" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
-                    Kategorija
+                    Acer 180 eur
                   </div>
                   <div class="project-name">
                     Numeris
@@ -275,12 +275,12 @@
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/computer-hardware.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/computer-hardware.jpg" alt="">
+            <a class="portfolio-box" href="img/portfolio/fullsize/maxresdefault5.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/maxresdefault5.jpg" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
-                    Kategorija
+                    Acer 180 eur
                   </div>
                   <div class="project-name">
                     Numeris
@@ -290,15 +290,22 @@
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/maxresdefault.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/maxresdefault.jpg" alt="">
+            <a class="portfolio-box" href="img/portfolio/fullsize/maxresdefault6.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/maxresdefault6.jpg" alt="">
+                
+               
+                
+                
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
-                    Kategorija
+                    Acer 180 eur
+                       
+                      
                   </div>
                   <div class="project-name">
                     Numeris
+                      
                   </div>
                 </div>
               </div>
@@ -325,16 +332,17 @@
              
              
              
-              <section class="p-0" id="portfolio">
+        <section class="p-0" id="portfolio">
       <div class="container-fluid">
         <div class="row no-gutter popup-gallery">
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/3Capture.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/3Capture.jpg" alt="">
+            <a class="portfolio-box" href="img/portfolio/fullsize/maxresdefault7.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/maxresdefault7.jpg" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
-                    Kategorija
+                    Acer 150 eur
+                                   
                   </div>
                   <div class="project-name">
                     Numeris
@@ -344,12 +352,12 @@
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/computer-hardware.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/computer-hardware.jpg" alt="">
+            <a class="portfolio-box" href="img/portfolio/fullsize/maxresdefault8.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/maxresdefault8.jpg" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
-                    Kategorija
+                    Acer 150 eur
                   </div>
                   <div class="project-name">
                     Numeris
@@ -359,12 +367,12 @@
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/maxresdefault.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/maxresdefault.jpg" alt="">
+            <a class="portfolio-box" href="img/portfolio/fullsize/maxresdefault9.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/maxresdefault9.jpg" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
-                    Kategorija
+                    Acer 150 eur
                   </div>
                   <div class="project-name">
                     Numeris
