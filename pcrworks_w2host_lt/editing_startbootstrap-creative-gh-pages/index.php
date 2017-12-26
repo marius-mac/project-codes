@@ -196,7 +196,7 @@
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
-                    Dell 50 eur
+                    Seagate 30 eur
                   </div>
                   <div class="project-name">
                     Numeris
@@ -211,7 +211,7 @@
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
-                    Dell 50 eur
+                    Seagate 30 eur
                   </div>
                   <div class="project-name">
                     Numeris
@@ -226,7 +226,7 @@
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
-                    Dell 50 eur
+                    Seagate 30 eur
                   </div>
                   <div class="project-name">
                     Numeris
@@ -531,9 +531,12 @@ Jquery, Sql, Php ).
     <script src="js/creative.min.js"></script>
 
       
-      
+     
         
-         
+       
+        
+        
+        
         
         
         
