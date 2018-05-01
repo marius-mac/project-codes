@@ -97,8 +97,8 @@
            <p> </p>
             <p> </p>
           
-                <h6> Marius +370 6 4360440 </h6>        
-                <h6> Saulius +370 6 7467714  </h6>
+                <h6> Konsultacijos: Marius +370 6 4360440 </h6>        
+                <h6> Meistras: Saulius +370 6 7467714  </h6>
           
                     
             <p> </p>
@@ -106,15 +106,14 @@
           
    
           
-          <a class="btn btn-primary btn-nl js-scroll-trigger" href="#contact">Konsultacijos...</a>
+          <a class="btn btn-primary btn-nl js-scroll-trigger" href="#contact">Kontaktai:</a>
             
         
             
              <h5> <p>
                     
                     
-                    <a href="https://sites.google.com/site/nonsiteon/home"><h5> <p>Site copyright "emc2" 2017
-                    marius@pcrworks.we2host.lt
+                    <a href="https://sites.google.com/site/nonsiteon/home/foto"><h5> <p>Kiti darbai:
                     
 
                     
@@ -297,8 +296,8 @@
             <i class="fa fa-phone fa-3x sr-contact"></i>
                 
               <p>Remonto paslaugos ir konsultacijos:</p>
-                 <p>Marius +370 6 4360440 </p>
-                 <p>Saulius +370 6 7467714 </p>
+                 <p>Konsultacijos: Marius +370 6 4360440 </p>
+                 <p>Meistras: Saulius +370 6 7467714 </p>
             
               
           </div>
