@@ -135,7 +135,6 @@
             </div>
         </div>
     </header>
-<!--- perdaryta nuo --->
 
     <section class="bg-primary" id="about">
         <div class="container">
@@ -144,10 +143,7 @@
                     <h5 class="section-heading text-white">Kompiuterinių sistemų sutrikimų šalinimas</h5>
                     <hr class="light">
                     <p class="text-faded">.....</p>
-					
-					<!-- pakeista a clases eilute btn  --> 
-					
-                    <a class="btn btn-default btn-xl sr-button js-scroll-trigger" href="#services">
+                    <a class="btn btn-default btn-xl js-scroll-trigger" href="#services">
                         <p>Windows sistemos diegimas, komponentų sujungimas;</p>
                         <p>Belaidžio ir laidinio tinklų, maršrutizatorių konfigūravimas;</p>
                         <p>Apsaugos nuo grėsmių įdiegimas, atnaujinimas;</p>
@@ -159,7 +155,7 @@
             </div>
         </div>
     </section>
-<!--- iki perdaryta --->
+
     <section id="services">
         <div class="container">
             <div class="row">
@@ -226,9 +222,7 @@
         <div class="container-fluid">
             <div class="row no-gutter popup-gallery">
                 <div class="col-lg-4 col-sm-6">
-				
-				<!-- pakeista a clases eilute btn  --> 
-                    <a class="btn btn-default btn-nl sr-button" href="img/portfolio/fullsize/1.jpg">
+                    <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
                         <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -244,9 +238,7 @@
                 </div>
 
                 <div class="col-lg-4 col-sm-6">
-				
-				<!-- pakeista a clases eilute btn  --> 
-                    <a class="btn btn-default btn-nl sr-button" href="img/portfolio/fullsize/2.jpg">
+                    <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
                         <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -262,8 +254,7 @@
                 </div>
 
                 <div class="col-lg-4 col-sm-6">
-				
-                    <a class="btn btn-default btn-nl sr-button" href="img/portfolio/fullsize/3.jpg">
+                    <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
                         <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
 
                         <div class="portfolio-box-caption">
@@ -299,8 +290,6 @@
 
 
             <hr class="primary">
-			
-			<div class="container text-center">
             <p>.....</p>
 
             <div class="container text-center">
