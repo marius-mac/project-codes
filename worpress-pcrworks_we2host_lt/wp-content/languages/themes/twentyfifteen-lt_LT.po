@@ -1,0 +1,313 @@
+# Translation of Themes - Twenty Fifteen in Lithuanian
+# This file is distributed under the same license as the Themes - Twenty Fifteen package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-09-20 03:17:17+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: lt\n"
+"Project-Id-Version: Themes - Twenty Fifteen\n"
+
+#. Description of the plugin/theme
+msgid "Our 2015 default theme is clean, blog-focused, and designed for clarity. Twenty Fifteen's simple, straightforward typography is readable on a wide variety of screen sizes, and suitable for multiple languages. We designed it using a mobile-first approach, meaning your content takes center-stage, regardless of whether your visitors arrive by smartphone, tablet, laptop, or desktop computer."
+msgstr "WordPress tema \"2015\" yra minimalistinės struktūros, orientuota į tinklaraščius, jos dizainas aiškus ir neperkrautas. Paprasta tipografija yra lengvai įskaitoma įvairiuose ekranų dydžiuose bei tinkama naudoti su daugeliu kalbų. Ši tema buvo kuriama taikant \"mobile-first\" požiūrį - tai reiškia, kad Jūsų turinys yra svarbiausias ir gerai matomas, nepaisant ar lankytojai skaitys jį išmaniuosiuose telefonuose, planšetiniuose, nešiojamuosiuose ar stacionariuose kompiuteriuose."
+
+#. Theme Name of the plugin/theme
+msgid "Twenty Fifteen"
+msgstr "Twenty Fifteen"
+
+#. translators: %s: post title
+#: comments.php:31
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "Įrašo &ldquo;%s&rdquo; komenatarų: 1"
+
+#. translators: %s: post title
+#: inc/template-tags.php:130
+msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Komentuokite<span class=\"screen-reader-text\"> įrašą %s</span>"
+
+#: single.php:39
+msgid "Previous post:"
+msgstr "Ankstesnis įrašas:"
+
+#: single.php:38
+msgid "Previous"
+msgstr "Ankstesnis"
+
+#: single.php:36
+msgid "Next post:"
+msgstr "Paskesnis įrašas:"
+
+#: single.php:35
+msgid "Next"
+msgstr "Kitas"
+
+#: search.php:18
+msgid "Search Results for: %s"
+msgstr "Paieškos rezultatai: %s"
+
+#: inc/template-tags.php:120
+msgctxt "Used before full size attachment link."
+msgid "Full size"
+msgstr "Visas dydis"
+
+#: inc/template-tags.php:108
+msgctxt "Used before tag names."
+msgid "Tags"
+msgstr "Žymos"
+
+#: inc/template-tags.php:99
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr "Kategorijos"
+
+#: inc/template-tags.php:95 inc/template-tags.php:104
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:89
+msgctxt "Used before post author name."
+msgid "Author"
+msgstr "Autorius"
+
+#: inc/template-tags.php:79
+msgctxt "Used before publish date."
+msgid "Posted on"
+msgstr "Paskelbta"
+
+#: inc/template-tags.php:56
+msgctxt "Used before post format."
+msgid "Format"
+msgstr "Formatas"
+
+#: inc/template-tags.php:49
+msgid "Featured"
+msgstr "Rekomenduojama"
+
+#: inc/template-tags.php:30
+msgid "Newer Comments"
+msgstr "Naujesni komentarai"
+
+#: inc/template-tags.php:26
+msgid "Older Comments"
+msgstr "Senesni komentarai"
+
+#: inc/template-tags.php:23
+msgid "Comment navigation"
+msgstr "Komentarų navigacija"
+
+#: inc/customizer.php:226
+msgid "Blue"
+msgstr "Mėlyna"
+
+#: inc/customizer.php:215
+msgid "Purple"
+msgstr "Violetinė"
+
+#: inc/customizer.php:204
+msgid "Pink"
+msgstr "Rožinė"
+
+#: inc/customizer.php:193
+msgid "Yellow"
+msgstr "Geltona"
+
+#: inc/customizer.php:182
+msgid "Dark"
+msgstr "Tamsi"
+
+#: inc/customizer.php:171
+msgid "Default"
+msgstr "Numatytieji"
+
+#: inc/customizer.php:93
+msgid "Header and Sidebar Background Color"
+msgstr "Antraštės ir šoninės srities fono spalva"
+
+#: inc/customizer.php:72 inc/customizer.php:94 inc/customizer.php:101
+msgid "Applied to the header on small screens and the sidebar on wide screens."
+msgstr "Rodoma antraštėje (header) mažuose ekranuose ir šoninėje srityje (sidebar) dideliuose ekranuose."
+
+#: inc/customizer.php:71
+msgid "Header and Sidebar Text Color"
+msgstr "Antraštės ir šoninės srities teksto spalva"
+
+#: inc/customizer.php:51
+msgid "Base Color Scheme"
+msgstr "Pagrindinė spalvų schema"
+
+#: inc/back-compat.php:37 inc/back-compat.php:48 inc/back-compat.php:62
+msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
+msgstr "Twenty Fifteen būtina bent 4.1 WordPress versija. Jūs naudojate %s - atsinaujinkite ir pabandykite dar kartą."
+
+#: image.php:88
+msgctxt "Parent post link"
+msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
+msgstr "<span class=\"meta-nav\">Paskelbta įraše:</span><span class=\"post-title\">%title</span>"
+
+#: image.php:25
+msgid "Next Image"
+msgstr "Kitas paveikslėlis"
+
+#: image.php:25
+msgid "Previous Image"
+msgstr "Ankstesnis paveikslėlis"
+
+#: header.php:49
+msgid "Menu and widgets"
+msgstr "Meniu ir valdikliai"
+
+#: header.php:26
+msgid "Skip to content"
+msgstr "Pereiti prie turinio"
+
+#: functions.php:312
+msgid "collapse child menu"
+msgstr "suskleisti sub-meniu"
+
+#: functions.php:311
+msgid "expand child menu"
+msgstr "išskleisti sub-meniu"
+
+#. Translators: To add an additional character subset specific to your
+#. language, translate this to 'greek', 'cyrillic', 'devanagari' or
+#. 'vietnamese'. Do not translate into your own language.
+#: functions.php:238
+msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
+msgid "no-subset"
+msgstr "nėra kalbos poaibio"
+
+#. Translators: If there are characters in your language that are not supported
+#. by Inconsolata, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:230
+msgctxt "Inconsolata font: on or off"
+msgid "on"
+msgstr "įjungta"
+
+#. Translators: If there are characters in your language that are not supported
+#. by Noto Serif, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:222
+msgctxt "Noto Serif font: on or off"
+msgid "on"
+msgstr "įjungta"
+
+#. Translators: If there are characters in your language that are not supported
+#. by Noto Sans, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:214
+msgctxt "Noto Sans font: on or off"
+msgid "on"
+msgstr "įjungta"
+
+#: functions.php:187
+msgid "Add widgets here to appear in your sidebar."
+msgstr "Sudėkite valdiklius čia, ir jie atsiras Jūsų tinklalapio šoninėje srityje."
+
+#: functions.php:185
+msgid "Widget Area"
+msgstr "Valdiklių Zona"
+
+#: functions.php:87
+msgid "Social Links Menu"
+msgstr "Socialinių nuorodų meniu"
+
+#: functions.php:86
+msgid "Primary Menu"
+msgstr "Pagrindinis meniu"
+
+#: footer.php:31
+msgid "Proudly powered by %s"
+msgstr "Sistema: %s"
+
+#. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 2.0)  #-#-#-#-#
+#. Author URI of the plugin/theme
+#: footer.php:30
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#: content-none.php:31
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Panašu, kad nepavyko rasti jūsų ieškomo puslapio. Galbūt jums padės paieškos galimybė."
+
+#: content-none.php:26
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Deja, nieko panašaus rasti nepavyko. Pabandykite įvesti kitokį paieškos raktažodį."
+
+#: content-none.php:22
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Pasirengę paskelbti pirmąjį įrašą? <a href=\"%1$s\">Pradėkite nuo čia</a>."
+
+#: content-none.php:15
+msgid "Nothing Found"
+msgstr "Nieko nerasta"
+
+#: content-link.php:60 content-page.php:37 content-search.php:28
+#: content-search.php:33 content.php:61 image.php:74
+msgid "Edit"
+msgstr "Redaguoti"
+
+#: content-link.php:39 content-page.php:26 content.php:41 image.php:61
+msgid "Pages:"
+msgstr "Puslapiai:"
+
+#. translators: %s: Name of current post
+#: content-link.php:32 content.php:34 inc/template-tags.php:249
+msgid "Continue reading %s"
+msgstr "Skaityti toliau: %s"
+
+#: comments.php:71
+msgid "Comments are closed."
+msgstr "Komentavimo galimybė išjungta."
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:35
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Įrašo &ldquo;%2$s&rdquo; komenatarų: %1$s"
+msgstr[1] "Įrašo &ldquo;%2$s&rdquo; komenatarų: %1$s"
+msgstr[2] "Įrašo &ldquo;%2$s&rdquo; komenatarų: %1$s"
+
+#: author-bio.php:34
+msgid "View all posts by %s"
+msgstr "Peržiūrėti visus įrašus, kuriuos paskelbė %s"
+
+#: author-bio.php:12
+msgid "Published by"
+msgstr "Paskelbė"
+
+#: archive.php:53 content-link.php:43 content-page.php:30 content.php:45
+#: image.php:65 index.php:50 search.php:43
+msgid "Page"
+msgstr "Puslapis"
+
+#: archive.php:52 index.php:49 search.php:42
+msgid "Next page"
+msgstr "Kitas puslapis"
+
+#: archive.php:51 index.php:48 search.php:41
+msgid "Previous page"
+msgstr "Ankstesnis puslapis"
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Panašu, kad čia nieko nėra. Gal padėtų paieškos įrankis?"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Deja, toks puslapis nerastas."
+
+#. Author of the plugin/theme
+msgid "the WordPress team"
+msgstr "WordPress komanda"
+
+#. Theme URI of the plugin/theme
+msgid "https://wordpress.org/themes/twentyfifteen/"
+msgstr "https://wordpress.org/themes/twentyfifteen/"
