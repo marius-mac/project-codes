@@ -1,0 +1,11 @@
+{% trans_default_domain 'FOSUserBundle' %}
+{% form_theme form 'bootstrap_3_layout.html.twig' %}
+
+<h1 class="text-center">{{ title }}</h1>
+{{ form_start(form, { 'action': path('fos_user_resetting_reset', {'token': token}),
+    'attr': { 'class': 'fos_user_resetting_reset', novalidate: 'novalidate'} }) }}
+    {{ form_widget(form) }}
+    <div class="text-center">
+        <button type="submit" class="btn btn-primary btn-lg">{{ 'resetting.reset.submit'|trans }}</button>
+    </div>
+{{ form_end(form) }}

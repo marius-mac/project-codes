@@ -1,0 +1,5 @@
+https://symfony.com/doc/current/create_framework/index.html
+
+
+
+composer require symfony/http-foundation // sukuria ir vendor/autoload.php

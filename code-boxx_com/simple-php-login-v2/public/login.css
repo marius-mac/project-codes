@@ -1,0 +1,31 @@
+html, body, input {
+  font-family: arial;
+}
+#login-form {
+  padding: 20px;
+  background: #f2f2f2;
+  max-width: 320px;
+  margin: 0 auto;
+}
+#login-form h1 {
+  font-size: 1.5em;
+  margin: 0;
+  color: #9b9b8d;
+}
+#login-form label, #login-form input {
+  display: block;
+  margin-top: 10px;
+  width: 100%;
+}
+#login-form input[type=email], #login-form input[type=password] {
+  padding: 5px;
+  font-size: 1em;
+  box-sizing: border-box;
+}
+#login-form input[type=submit] {
+  background: #ad4343;
+  color: #fff;
+  font-size: 1em;
+  padding: 10px 0;
+  border: 0;
+}

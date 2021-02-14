@@ -1,0 +1,4 @@
+providers:
+    - { name: "Autoplius.lt" }
+    - { name: "Autogidas.lt" }
+    - { name: "Alio.lt" }

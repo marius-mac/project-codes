@@ -1,0 +1,84 @@
+<h4>{{ 'form.header.update_form'|trans() }}</h4>
+{{ form_start(searchForm, { attr: {novalidate: 'novalidate', id: search_form_id, action: path('detailed_search')} }) }}
+{{ form_row(searchForm.brand) }}
+{{ form_row(searchForm.model) }}
+{{ form_row(searchForm.country) }}
+{{ form_row(searchForm.city) }}
+<div class="row">
+    <div class="col-xs-6">
+        {{ form_row(searchForm.year_from) }}
+    </div>
+    <div class="col-xs-6">
+        {{ form_row(searchForm.year_to) }}
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-6">
+        {{ form_row(searchForm.price_from) }}
+    </div>
+    <div class="col-xs-6">
+        {{ form_row(searchForm.price_to) }}
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-6 col-xs-6">
+        {{ form_row(searchForm.mileage_from) }}
+    </div>
+    <div class="col-md-6 col-xs-6">
+        {{ form_row(searchForm.mileage_to) }}
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-6 col-xs-6">
+        {{ form_row(searchForm.engine_size_from) }}
+    </div>
+    <div class="col-md-6 col-xs-6">
+        {{ form_row(searchForm.engine_size_to) }}
+    </div>
+</div>
+{{ form_row(searchForm.body_type) }}
+{{ form_row(searchForm.fuel_type) }}
+{{ form_row(searchForm.doors_number) }}
+{{ form_row(searchForm.drive_type) }}
+{{ form_row(searchForm.steering_wheel) }}
+{{ form_row(searchForm.color) }}
+{{ form_row(searchForm.sort_type) }}
+{{ form_row(searchForm.last_ad_update) }}
+<div class="row">
+    <div class="col-xs-12 text-center form-more-fields">
+        <button
+            type="button"
+            class="btn btn-default btn-sm collapsed"
+            data-toggle="collapse"
+            data-target="#search-more-fields"
+            aria-expanded="false">
+            {{ 'form.button.view_more'|trans() }}
+        </button>
+    </div>
+</div>
+<div id="search-more-fields" class="row collapse">
+    <div class="col-xs-12">
+        {{ form_row(searchForm.transmission) }}
+        {{ form_row(searchForm.climate_control) }}
+        {{ form_row(searchForm.seats_number) }}
+        {{ form_row(searchForm.wheelsDiameter) }}
+        {{ form_row(searchForm.gears_number) }}
+        {{ form_row(searchForm.defects) }}
+        {{ form_row(searchForm.next_check_year) }}
+        {{ form_row(searchForm.first_country) }}
+        <div class="row">
+            <div class="col-md-6 col-xs-6">
+                {{ form_row(searchForm.power_from) }}
+            </div>
+            <div class="col-md-6 col-xs-6">
+                {{ form_row(searchForm.power_to) }}
+            </div>
+        </div>
+        {{ form_row(searchForm.provider) }}
+    </div>
+
+</div>
+<div class="row text-center">
+    <button type="submit" class="btn btn-primary btn-lg search-form-button">{{ 'form.button.update'|trans() }}</button>
+</div>
+{{ form_end(searchForm, {'render_rest': false}) }}

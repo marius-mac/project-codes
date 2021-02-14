@@ -1,0 +1,18 @@
+<button type="button"
+{% if app.user and app.user.searches.contains(vehicleSearch) and vehicleSearch.pinned == 1 %}
+    class="unpin vehicle-search-pin-button btn btn-default"
+{% else %}
+    class="pin vehicle-search-pin-button btn btn-default"
+{% endif %}
+    data-toggle="popover"
+    data-content="{{ include('@App/includes/login_popup.html.twig') }}"
+    value="{% if vehicleSearch %}{{ vehicleSearch.id }}{% endif %}" >
+{% if app.user and app.user.searches.contains(vehicleSearch) and vehicleSearch.pinned == 1 %}
+        <span class="glyphicon glyphicon-heart"></span>
+        <b>{{ 'searches.pin.pinned'|trans() }}</b>
+    </button>
+{% else %}
+        <span class="glyphicon glyphicon-heart-empty"></span>
+        {{ 'searches.pin.unpinned'|trans() }}
+{% endif %}
+</button>

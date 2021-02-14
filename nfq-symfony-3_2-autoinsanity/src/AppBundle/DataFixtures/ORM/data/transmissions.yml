@@ -1,0 +1,4 @@
+transmissions:
+    - { name: 'Priekiniai' }
+    - { name: 'Galiniai' }
+    - { name: 'Visi varantys (4х4)' }

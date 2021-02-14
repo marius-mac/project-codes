@@ -1,0 +1,84 @@
+{% extends '@App/includes/search_form.html.twig' %}
+
+{% block title %}
+    {{ 'title.index'|trans() }}
+{% endblock %}
+
+
+{% block jumbotron %}
+    <div id="index-container">
+        <div class="index-jumbotron-container">
+            <div class="jumbotron index-jumbotron-content">
+                {% if app.request.hasPreviousSession %}
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 col-md-offset-3">
+                                {% for type, messages in app.session.flashbag.all() %}
+                                    {% for message in messages %}
+                                        <div class="alert alert-{{ type }}">
+                                            {{ message }}
+                                        </div>
+                                    {% endfor %}
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </div>
+                {% endif %}
+                <div class="container text-center">
+                <span>
+                    <h1>
+                        Visi Lietuvos automobilių skelbimai vienoje vietoje
+                    </h1>
+                    <h2>
+                        Išbandyk, kaip tai patogu
+                    </h2>
+                </span>
+                </div>
+            </div>
+        </div>
+        <div id="index-form-container" class="color-sunyellow-background">
+            {{ form_start(searchForm, { attr: {novalidate: 'novalidate'} }) }}
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-lg-offset-3">
+                        {{ form_row(searchForm.brand, {'attr': {'class': 'input-lg'}}) }}
+                        {{ form_row(searchForm.model, {'attr': {'class': 'input-lg'}}) }}
+                        <div class="row">
+                            <div class="col-xs-6">
+                                {{ form_row(searchForm.price_from, {'attr': {'class': 'input-lg'}}) }}
+                            </div>
+                            <div class="col-xs-6">
+                                {{ form_row(searchForm.price_to, {'attr': {'class': 'input-lg'}}) }}
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-6">
+                                {{ form_row(searchForm.year_from, {'attr': {'class': 'input-lg'}}) }}
+                            </div>
+                            <div class="col-xs-6">
+                                {{ form_row(searchForm.year_to, {'attr': {'class': 'input-lg'}}) }}
+                            </div>
+                        </div>
+                        {{ form_row(searchForm.fuel_type, {'attr': {'class': 'input-lg'}}) }}
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="btn btn-default btn-lg">
+                        <a href="{{ path("detailed_search") }}">{{ 'form.button.detailed_search'|trans() }}</a>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-lg">{{ 'form.button.search'|trans() }}</button>
+                </div>
+            </div>
+            {{ form_end(searchForm, {'render_rest': false}) }}
+        </div>
+    </div>
+
+{% endblock %}
+
+{% block body %}
+    {% include('@App/includes/why_us.html.twig') %}
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+{% endblock %}

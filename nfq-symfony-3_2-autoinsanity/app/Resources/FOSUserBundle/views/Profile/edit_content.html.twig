@@ -1,0 +1,17 @@
+{% trans_default_domain 'FOSUserBundle' %}
+{% form_theme form 'bootstrap_3_layout.html.twig' %}
+
+<h1 class="text-center">{{ title }}</h1>
+{{ form_start(form, { 'action': path('fos_user_profile_edit'), 'attr': { 'class': 'fos_user_profile_edit', novalidate: 'novalidate'} }) }}
+
+    <div class="form-group">
+        <label class="control-label">{{ 'form.current_email'|trans() }}</label>
+        <input class="form-control" type="text" value="{{ app.user.email }}" disabled />
+    </div>
+
+    {{ form_row(form.email) }}
+    {{ form_row(form.current_password) }}
+    <div class="text-center">
+        <button class="btn btn-primary btn-lg" type="submit">{{ 'profile.edit.submit'|trans }}</button>
+    </div>
+{{ form_end(form) }}

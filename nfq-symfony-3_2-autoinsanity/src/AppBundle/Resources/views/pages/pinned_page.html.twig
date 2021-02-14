@@ -1,0 +1,44 @@
+{% extends 'AppBundle::base.html.twig' %}
+
+{% use('@App/includes/ad_list.html.twig') %}
+
+{% set page = app.request.get('page') %}
+{% set current_path = 'pinned' %}
+
+{% block title %}
+    {{ 'title.pinned'|trans }}
+    {% if items|length > 0 %}
+        {{ 'title.pagination'|trans({'%page%': page, '%pages%': total_pages_count}) }}
+    {% endif %}
+{% endblock %}
+
+{% block pagination %}
+    {% include('@App/includes/pagination.html.twig') %}
+{% endblock %}
+
+{% block body %}
+    <div class="row ">
+        <div class="col-md-9 col-xs-12 column-center ">
+            <h3>{{ block('title') }}</h3>
+            {% if items|length == 0 %}
+                <div class="alert alert-danger">
+                    {{ 'results.error.no_pinned'|trans() }}
+                </div>
+            {% else %}
+                <div class="row">
+                    <div class="col-md-12">
+                        {{ block('pagination') }}
+                    </div>
+                </div>
+                {{ block('ad_list') }}
+                {{ block('pagination') }}
+            {% endif %}
+        </div>
+    </div>
+{% endblock %}
+
+{% block javascripts %}
+    <script src="{{ asset('js/search_form_results.js') }}"></script>
+    {{ block('ad_list_javascripts') }}
+{% endblock %}
+

@@ -1,0 +1,1048 @@
+# Translation of Themes - Catch Responsive in Lithuanian
+# This file is distributed under the same license as the Themes - Catch Responsive package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-07-28 11:07:26+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: lt\n"
+"Project-Id-Version: Themes - Catch Responsive\n"
+
+#. Theme Name of the plugin/theme
+msgid "Catch Responsive"
+msgstr "Catch Responsive"
+
+#: inc/customizer-includes/catchresponsive-customizer-theme-options.php:385
+msgid "Check to disable Scroll Up"
+msgstr "Pažymėję išjungsite Scroll Up efektą"
+
+#: inc/customizer-includes/catchresponsive-customizer-theme-options.php:375
+msgid "Scrollup Options"
+msgstr "Scrollup nustatymai"
+
+#: inc/customizer-includes/catchresponsive-customizer.php:128
+msgid "Mobile Menu Color Scheme"
+msgstr "Mobilaus meniu spalvų schema"
+
+#: inc/catchresponsive-default-options.php:481
+msgid "Link"
+msgstr "Nuoroda"
+
+#: inc/catchresponsive-default-options.php:477
+msgid "Cloud"
+msgstr "Debesis"
+
+#: inc/catchresponsive-default-options.php:473
+msgid "Cart"
+msgstr "Krepšelis"
+
+#: inc/catchresponsive-default-options.php:469
+msgid "Handset"
+msgstr "Įrengnys"
+
+#: inc/catchresponsive-default-options.php:465
+msgid "Phone"
+msgstr "Telefono Nr."
+
+#: inc/catchresponsive-default-options.php:461
+msgid "Website"
+msgstr "Interneto svetainėje"
+
+#: inc/customizer-includes/catchresponsive-customizer-featured-content-setting.php:19
+msgid "Options for Featured Content"
+msgstr "Reklamuojamo turinio nustatymai"
+
+#: sidebar.php:44
+msgid "By default it will load Search and Archives widgets as shown below. You can add widget to this area by visiting your <a href=\"%s\">Widgets Panel</a> which will replace default widgets."
+msgstr "Pagal nutylėjimą jis užkraus paieškos ir archyvų valdiklius, kaip parodyta žemiau. Jūs galite pridėti valdiklį į šią sritį apsilankę savo <a href=\"%s\">valdiklių skyde</a> , kuris pakeis numatytuosius valdiklius."
+
+#: sidebar.php:43
+msgid "This is the Primary Sidebar Widget Area if you are using a two or three column site layout option."
+msgstr "Tai yra pagrindinės šoninės juostos valdiklių sritis, jei naudojate dviejų ar trijų stulpelių svetainės išdėstymo variantą."
+
+#: sidebar.php:40
+msgid "Primary Sidebar Widget Area"
+msgstr "Pagrindinės šoninės juostos valdiklių sritis"
+
+#: searchform.php:17
+msgctxt "submit button"
+msgid "Search"
+msgstr "Paieška"
+
+#: searchform.php:14 searchform.php:15
+msgctxt "label"
+msgid "Search for:"
+msgstr "Ieškoti:"
+
+#: search.php:19
+msgid "Search Results for: %s"
+msgstr "Paieškos rezultatai skirti: %s"
+
+#: no-results.php:14
+msgid "Error 404-Page NOT Found"
+msgstr "Klaida 404 puslapis nerastas"
+
+#: inc/customizer-includes/catchresponsive-customizer.php:175
+#: inc/customizer-includes/catchresponsive-customizer.php:186
+msgid "Important Links"
+msgstr "Svarbios nuorodos"
+
+#: inc/customizer-includes/catchresponsive-customizer.php:165
+msgid "Check to reset all settings to default"
+msgstr "Pažymėkite norėdami atstatyti visus nustatymus į numatytuosius"
+
+#: inc/customizer-includes/catchresponsive-customizer.php:154
+msgid "Reset all settings"
+msgstr "Atstatyti visus nustatymus"
+
+#: inc/customizer-includes/catchresponsive-customizer.php:152
+msgid "Caution: Reset all settings to default. Refresh the page after save to view full effects."
+msgstr "Atsargiai: Atstatykite visus nustatymus į numatytuosius. Po išsaugojimo atnaujinkite puslapį, kad galėtumėte peržiūrėti pilną efektą."
+
+#: inc/customizer-includes/catchresponsive-customizer.php:113
+msgid "Color Scheme"
+msgstr "Spalvų schema"
+
+#: inc/customizer-includes/catchresponsive-customizer.php:95
+msgid "Check to move Site Title and Tagline before logo"
+msgstr "Pažymėkite norėdami padėti tinklapio pavadinimą ir apibūdinimą prieš logotipą"
+
+#: inc/customizer-includes/catchresponsive-customizer.php:80
+msgid "Logo Alt Text"
+msgstr "Logotipo alternatyvus tekstas"
+
+#: inc/customizer-includes/catchresponsive-customizer.php:66
+msgid "Check to disable logo"
+msgstr "Pažymėkite langelį, jei norite išjungti logotipą."
+
+#: inc/customizer-includes/catchresponsive-customizer.php:53
+msgid "Logo"
+msgstr "Logotipas"
+
+#: inc/customizer-includes/catchresponsive-customizer-theme-options.php:407
+msgid "Default Display Text in Search"
+msgstr "Įprastas ekrano tekstas paieškoje"
+
+#: inc/customizer-includes/catchresponsive-customizer-theme-options.php:397
+msgid "Search Options"
+msgstr "Paieškos parinktys"
+
+#: inc/customizer-includes/catchresponsive-customizer-theme-options.php:394
+msgid "Change default placeholder text in Search."
+msgstr "Keisti numatytąjį tekstą paieškoje."
+
+#: inc/customizer-includes/catchresponsive-customizer-theme-options.php:349
+msgid "Promotion Headline Link"
+msgstr "Reklaminės antraštės nuoroda"
+
+#: inc/customizer-includes/catchresponsive-customizer-theme-options.php:335
+msgid "Promotion Headline Button Text "
+msgstr "Reklaminės antraštės mygtuko tekstas"
+
+#: inc/customizer-includes/catchresponsive-customizer-theme-options.php:334
+msgid "Appropriate Words: 3"
+msgstr "Tinka žodžių: 3"
+
+#: inc/customizer-includes/catchresponsive-customizer-theme-options.php:321
+msgid "Promotion Subheadline Text"
+msgstr "Reklaminės poantraštės tekstas"
+
+#: inc/customizer-includes/catchresponsive-customizer-theme-options.php:320
+msgid "Appropriate Words: 15"
+msgstr "Tinka žodžių: 15"
+
+#: inc/customizer-includes/catchresponsive-customizer-theme-options.php:307
+msgid "Promotion Headline Text"
+msgstr "Reklaminės antraštės tekstas"
+
+#: inc/customizer-includes/catchresponsive-customizer-theme-options.php:306
+msgid "Appropriate Words: 10"
+msgstr "Tinka žodžių: 10"
+
+#: inc/customizer-includes/catchresponsive-customizer-theme-options.php:292
+msgid "Enable Promotion Headline on"
+msgstr "Įjungti reklaminę antraštę"
+
+#: inc/customizer-includes/catchresponsive-customizer-theme-options.php:281
+msgid "Promotion Headline Options"
+msgstr "Reklaminės antraštės parinktys"
+
+#: inc/customizer-includes/catchresponsive-customizer-theme-options.php:278
+msgid "To disable the fields, simply leave them empty."
+msgstr "Norėdami išjungti laukus, tiesiog palikite juos tuščius."
+
+#: inc/customizer-includes/catchresponsive-customizer-theme-options.php:269
+msgid "Pagination type"
+msgstr "Numeracijos tipas"
+
+#: inc/customizer-includes/catchresponsive-customizer-theme-options.php:258
+msgid "Pagination Options"
+msgstr "Numeracijos parinktys"
+
+#: inc/customizer-includes/catchresponsive-customizer-theme-options.php:247
+msgid "Numeric Option requires <a target=\"_blank\" href=\"%s\">WP-PageNavi Plugin</a>."
+msgstr "Skaičių variantas reikalauja <a target=\"_blank\" href=\"%s\">WP-PageNavi įskiepio</a> ."
+
+#: inc/customizer-includes/catchresponsive-customizer-theme-options.php:236
+msgid "Infinite Scroll Options requires <a target=\"_blank\" href=\"%s\">JetPack Plugin</a> with Infinite Scroll module Enabled."
+msgstr "Begalinio slinkimo parinktys reikalauja <a target=\"_blank\" href=\"%s\">Jetpack įskiepio</a> su įjungtu begalinio slinkimo moduliu."
+
+#: inc/customizer-includes/catchresponsive-customizer-theme-options.php:229
+msgid "Numeric Option requires <a target=\"_blank\" href=\"%1$s\">WP-PageNavi Plugin</a>.<br/>Infinite Scroll Options requires <a target=\"_blank\" href=\"%2$s\">JetPack Plugin</a> with Infinite Scroll module Enabled."
+msgstr "Skaičių pasirinkimui reikia įdiegti <a target=\"_blank\" href=\"%1$s\">WP-PageNavi įskiepį</a>.<br/>Begalinės slinkties pasirinkimui reikia įdiegti <a target=\"_blank\" href=\"%2$s\">Jetpack įskiepį</a> ir jame įjungti begalinės slinkties modulį."
+
+#: inc/customizer-includes/catchresponsive-customizer-theme-options.php:205
+msgid "Archive Content Layout"
+msgstr "Archyvo turinio išdėstymas"
+
+#: inc/customizer-includes/catchresponsive-customizer-theme-options.php:191
+msgid "Default Layout"
+msgstr "Numatytasis išdėstymas"
+
+#: inc/customizer-includes/catchresponsive-customizer-theme-options.php:165
+msgid "Select Categories"
+msgstr "Pasirinkite kategorijas"
+
+#: inc/customizer-includes/catchresponsive-customizer-theme-options.php:155
+msgid "Homepage / Frontpage Options"
+msgstr "Pradžios/titulinio puslapio parinktys"
+
+#: inc/customizer-includes/catchresponsive-customizer-theme-options.php:152
+msgid "Only posts that belong to the categories selected here will be displayed on the front page"
+msgstr "Tik pranešimai, kurie priklauso vienai iš pažymėtų kategorijų, bus rodomi tituliniame puslapyje."
+
+#: inc/customizer-includes/catchresponsive-customizer-theme-options.php:143
+msgid "Read More Text"
+msgstr "Skaityti daugiau teksto"
+
+#: inc/customizer-includes/catchresponsive-customizer-theme-options.php:129
+msgid "Excerpt Length (words)"
+msgstr "Ištraukos Ilgis (žodžiais)"
+
+#: inc/customizer-includes/catchresponsive-customizer-theme-options.php:122
+msgid "Excerpt length. Default is 55 words"
+msgstr "Numatytasis nustatymas yra 55 žodžiai."
+
+#: inc/customizer-includes/catchresponsive-customizer-theme-options.php:112
+msgid "Excerpt Options"
+msgstr "Ištraukos parinktys"
+
+#: inc/customizer-includes/catchresponsive-customizer-theme-options.php:99
+msgid "Enter Custom CSS"
+msgstr "Įveskite individualų CSS"
+
+#: inc/customizer-includes/catchresponsive-customizer-theme-options.php:89
+msgid "Custom CSS Options"
+msgstr "Individualaus CSS parinktys"
+
+#: inc/customizer-includes/catchresponsive-customizer-theme-options.php:86
+msgid "Custom/Inline CSS"
+msgstr "Individualus/Inline CSS"
+
+#: inc/customizer-includes/catchresponsive-customizer-theme-options.php:71
+msgid "Separator between Breadcrumbs"
+msgstr "Viršutiniojo slankaus lauko skirtukas"
+
+#: inc/customizer-includes/catchresponsive-customizer-theme-options.php:55
+msgid "Check to enable Breadcrumb on Homepage"
+msgstr "Pažymėkite norėdami įjungti viršutinį slankųjį lauką pradžios puslapyje."
+
+#: inc/customizer-includes/catchresponsive-customizer-theme-options.php:42
+msgid "Check to enable Breadcrumb"
+msgstr "Pažymėkite norėdami įjungti viršutinį slankųjį lauką."
+
+#: inc/customizer-includes/catchresponsive-customizer-theme-options.php:31
+msgid "Breadcrumb Options"
+msgstr "Viršutinio slankaus lauko parinktys"
+
+#: inc/customizer-includes/catchresponsive-customizer-theme-options.php:29
+msgid "Breadcrumbs are a great way of letting your visitors find out where they are on your site with just a glance. You can enable/disable them on homepage and entire site."
+msgstr "Viršutinis slankusis laukas yra puikus būdas leisti savo lankytojams sužinoti, kur jie yra jūsų svetainėje vos tik žvilgterėjus. Jūs galite įjungti/išjungti juos puslapyje ir visoje svetainėje."
+
+#: inc/customizer-includes/catchresponsive-customizer-theme-options.php:23
+msgid "Theme Options"
+msgstr "Apipavidalinimo Parinktys"
+
+#: inc/customizer-includes/catchresponsive-customizer-theme-options.php:20
+msgid "Basic theme Options"
+msgstr "Pagrindinės temos parinktys"
+
+#: inc/customizer-includes/catchresponsive-customizer-social-icons.php:45
+msgid "Skype link can be of formats:<br>callto://+{number}<br> skype:{username}?{action}. More Information in readme file"
+msgstr "Skype nuoroda gali būti formatais:<br>callto://+{number}<br> skype:{username}?{action}. Daugiau informacijos readme faile."
+
+#: inc/customizer-includes/catchresponsive-customizer-social-icons.php:21
+#: inc/customizer-includes/catchresponsive-customizer-social-icons.php:28
+msgid "Social Links"
+msgstr "Socialinės nuorodos"
+
+#: inc/customizer-includes/catchresponsive-customizer-social-icons.php:19
+msgid "Note: Enter the url for correponding social networking website"
+msgstr "Pastaba: įveskite URL atitinkamai socialinio tinklo svetainei"
+
+#: inc/customizer-includes/catchresponsive-customizer-header-options.php:79
+#: inc/customizer-includes/catchresponsive-customizer-theme-options.php:363
+msgid "Check to Open Link in New Window/Tab"
+msgstr "Pažymėkite, kad atidaryti nuorodą naujame lange/kortelėje"
+
+#: inc/customizer-includes/catchresponsive-customizer-header-options.php:66
+msgid "Featured Header Image Link URL"
+msgstr "Reklaminės antraštės paveiksliuko nuorodos URL"
+
+#: inc/customizer-includes/catchresponsive-customizer-header-options.php:53
+msgid "Featured Header Image Alt/Title Tag "
+msgstr "Reklaminės antraštės paveiksliuko alternatyvus tekstas"
+
+#: inc/customizer-includes/catchresponsive-customizer-header-options.php:40
+msgid "Page/Post Featured Header Image Size"
+msgstr "Puslapio/įrašo reklaminės antraštės paveiksliuko dydis"
+
+#: inc/customizer-includes/catchresponsive-customizer-header-options.php:25
+msgid "Enable Featured Header Image on "
+msgstr "Įjungti reklaminės antraštės paveiksliuką"
+
+#: inc/customizer-includes/catchresponsive-customizer-featured-slider.php:154
+msgid "No of Slides"
+msgstr "Skaidrių skaičius"
+
+#: inc/customizer-includes/catchresponsive-customizer-featured-slider.php:147
+msgid "Save and refresh the page if No. of Slides is changed (Max no of slides is 20)"
+msgstr "Išsaugokite ir atnaujinkite puslapį, jei skaidrių skaičius yra pasikeitęs (maks. skaičius skaidrių yra 20)"
+
+#: inc/customizer-includes/catchresponsive-customizer-featured-slider.php:132
+msgid "Select Slider Type"
+msgstr "Pasirinkite slankiklio tipą"
+
+#: inc/customizer-includes/catchresponsive-customizer-featured-slider.php:116
+msgid "Image Loader"
+msgstr "Paveikslėlių įkėlėjas"
+
+#: inc/customizer-includes/catchresponsive-customizer-featured-slider.php:100
+msgid "Transition Length"
+msgstr "Perėjimo ilgis"
+
+#: inc/customizer-includes/catchresponsive-customizer-featured-slider.php:81
+msgid "Transition Delay"
+msgstr "Perėjimo delsimas"
+
+#: inc/customizer-includes/catchresponsive-customizer-featured-slider.php:77
+#: inc/customizer-includes/catchresponsive-customizer-featured-slider.php:96
+msgid "seconds(s)"
+msgstr "sekundės(-džių)"
+
+#: inc/customizer-includes/catchresponsive-customizer-featured-slider.php:61
+msgid "Transition Effect"
+msgstr "Pereinamasis efektas"
+
+#: inc/customizer-includes/catchresponsive-customizer-featured-slider.php:45
+msgid "Enable Slider on"
+msgstr "Įjungti slinkiklį"
+
+#: inc/customizer-includes/catchresponsive-customizer-featured-slider.php:21
+#: inc/customizer-includes/catchresponsive-customizer-featured-slider.php:33
+msgid "Featured Slider"
+msgstr "Karuselė"
+
+#: inc/customizer-includes/catchresponsive-customizer-featured-slider.php:19
+#: inc/customizer-includes/catchresponsive-customizer-featured-slider.php:27
+msgid "Featured Slider Options"
+msgstr "Reklaminio slinkiklio parinktys"
+
+#: inc/customizer-includes/catchresponsive-customizer-featured-content-setting.php:184
+#: inc/customizer-includes/catchresponsive-customizer-featured-slider.php:171
+msgid "Featured Page"
+msgstr "Reklaminis puslapis"
+
+#: inc/customizer-includes/catchresponsive-customizer-featured-content-setting.php:166
+msgid "Display Content"
+msgstr "Rodyti turinį"
+
+#: inc/customizer-includes/catchresponsive-customizer-featured-content-setting.php:149
+msgid "No of Featured Content"
+msgstr "Reklaminio turinio skaičius"
+
+#: inc/customizer-includes/catchresponsive-customizer-featured-content-setting.php:142
+msgid "Save and refresh the page if No. of Featured Content is changed (Max no of Featured Content is 20)"
+msgstr "Išsaugokite ir atnaujinkite puslapį, jei reklaminio turinio skaičius pasikeitė (Max skaičius reklaminio turinio yra 20)"
+
+#: inc/customizer-includes/catchresponsive-customizer-featured-content-setting.php:126
+msgid "Sub-headline for Featured Content"
+msgstr "Poantraštė reklaminiam turiniui"
+
+#: inc/customizer-includes/catchresponsive-customizer-featured-content-setting.php:125
+msgid "Leave field empty if you want to remove Sub-headline"
+msgstr "Palikite lauką tuščią, jei norite pašalinti poantraštę"
+
+#: inc/customizer-includes/catchresponsive-customizer-featured-content-setting.php:109
+msgid "Headline for Featured Content"
+msgstr "Antraštė reklaminiam turiniui"
+
+#: inc/customizer-includes/catchresponsive-customizer-featured-content-setting.php:108
+msgid "Leave field empty if you want to remove Headline"
+msgstr "Palikite lauką tuščią, jei norite pašalinti antraštę"
+
+#: inc/customizer-includes/catchresponsive-customizer-featured-content-setting.php:93
+msgid "Select Content Type"
+msgstr "Pasirinkite Turinio tipą"
+
+#: inc/customizer-includes/catchresponsive-customizer-featured-content-setting.php:77
+msgid "Check to Move above Footer"
+msgstr "Pažymėkite norėdami perkelti aukščiau apačios"
+
+#: inc/customizer-includes/catchresponsive-customizer-featured-content-setting.php:62
+msgid "Select Featured Content Layout"
+msgstr "Pasirinkti reklaminio turinio išdėstymą"
+
+#: inc/customizer-includes/catchresponsive-customizer-featured-content-setting.php:46
+msgid "Enable Featured Content on"
+msgstr "Įjungti reklaminį turinį"
+
+#: inc/customizer-includes/catchresponsive-customizer-featured-content-setting.php:28
+msgid "Featured Content Options"
+msgstr "Reklaminio turinio parinktys "
+
+#: inc/customizer-includes/catchresponsive-customizer-custom-controls.php:78
+msgid "Google+"
+msgstr "Google+"
+
+#: inc/customizer-includes/catchresponsive-customizer-custom-controls.php:66
+msgid "Review"
+msgstr "Apžvalga"
+
+#: inc/customizer-includes/catchresponsive-customizer-custom-controls.php:62
+msgid "Donate Now"
+msgstr "Paaukok dabar"
+
+#: inc/customizer-includes/catchresponsive-customizer-custom-controls.php:58
+msgid "Changelog"
+msgstr "Pakeitimų sąrašas"
+
+#: inc/customizer-includes/catchresponsive-customizer-custom-controls.php:54
+msgid "Support"
+msgstr "atbalstīt"
+
+#: inc/customizer-includes/catchresponsive-customizer-custom-controls.php:50
+msgid "Theme Instructions"
+msgstr "Temos instrukcijos"
+
+#: inc/customizer-includes/catchresponsive-customizer-custom-controls.php:37
+msgid "Hold down the Ctrl (windows) / Command (Mac) button to select multiple options."
+msgstr "Laikykite nuspaudę Ctrl (Windows) / Command (Mac) mygtuką, norėdami pasirinkti kelis variantus."
+
+#: inc/catchresponsive-widgets.php:111
+msgid "Title (optional):"
+msgstr "Pavadinimas (nebūtina):"
+
+#: inc/catchresponsive-widgets.php:70
+msgid "Use this widget to add Social Icons as a widget. "
+msgstr "Naudokite šį valdiklį tam, kad pridėti socialines piktogramas kaip valdiklius."
+
+#: inc/catchresponsive-widgets.php:69
+msgid "CT: Social Icons"
+msgstr "CT: Soc. tinklų piktogramos"
+
+#: inc/catchresponsive-widgets.php:49
+msgid "Footer %d widget area."
+msgstr "Apačia %d valdiklio sritis."
+
+#: inc/catchresponsive-widgets.php:43
+msgid "Footer Area %d"
+msgstr "Apačios sritis %d"
+
+#: inc/catchresponsive-widgets.php:36
+msgid "This is the primary sidebar if you are using a two or three column site layout option."
+msgstr "Tai yra pagrindinė šoninė juosta, jei Jūs naudojate dviejų ar trijų stulpelių svetainės išdėstymo variantą."
+
+#: inc/catchresponsive-widgets.php:30
+msgid "Primary Sidebar"
+msgstr "Pagr. šoninė juosta"
+
+#: inc/catchresponsive-metabox.php:221
+msgid "Catch Responsive Options"
+msgstr "Catch Responsive parinktys"
+
+#: inc/catchresponsive-metabox.php:95
+#: inc/customizer-includes/catchresponsive-customizer-theme-options.php:218
+msgid "Single Page/Post Image Layout "
+msgstr "Atskiro puslapio/įrašo paveikslėlio padėtis"
+
+#: inc/catchresponsive-metabox.php:94
+msgid "Header Featured Image Options"
+msgstr "Antraštės reklaminio paveikslėlio parinktys"
+
+#: inc/catchresponsive-metabox.php:93
+#: inc/customizer-includes/catchresponsive-customizer-theme-options.php:180
+msgid "Layout Options"
+msgstr "Maketo parinktys"
+
+#: inc/catchresponsive-menus.php:146 inc/catchresponsive-menus.php:165
+msgid "Menu"
+msgstr "Meniu"
+
+#: inc/catchresponsive-menus.php:44
+msgid "Search"
+msgstr "Поиск"
+
+#: inc/catchresponsive-menus.php:28 inc/catchresponsive-menus.php:70
+msgid "Skip to content"
+msgstr "Eiti prie turinio"
+
+#: inc/catchresponsive-featured-content.php:256
+#: inc/catchresponsive-featured-slider.php:178
+msgid "Permalink to: "
+msgstr "Pastovi nuoroda į:"
+
+#: inc/catchresponsive-featured-content.php:57
+msgid "Here you can showcase the x number of Featured Content. You can edit this Headline, Subheadline and Feaured Content from \"Appearance -> Customize -> Featured Content Options\"."
+msgstr "Čia Jūs galite demonstruoti x skaičių reklaminio turinio. Jūs galite redaguoti šią antraštę, Paantraštę ir reklaminį turinį iš \"Išvaizda -> Tinkinti -> Reklaminio turinio parinktys\"."
+
+#: inc/catchresponsive-default-options.php:589
+msgid "by"
+msgstr " "
+
+#: inc/catchresponsive-default-options.php:572
+msgid "Disable Image"
+msgstr "Išjungti paveikslėlį"
+
+#: inc/catchresponsive-default-options.php:562
+msgid "Featured Image"
+msgstr "Spec. paveikslėlis"
+
+#: inc/catchresponsive-default-options.php:540
+msgid "Disable"
+msgstr "Išjungti"
+
+#: inc/catchresponsive-default-options.php:535
+msgid "Enable"
+msgstr "Įjungti"
+
+#: inc/catchresponsive-default-options.php:499
+#: inc/catchresponsive-default-options.php:530
+#: inc/catchresponsive-default-options.php:557
+msgid "Default"
+msgstr "Standartiniai nustatymai"
+
+#: inc/catchresponsive-default-options.php:457
+msgid "Twitch"
+msgstr "Twitch"
+
+#: inc/catchresponsive-default-options.php:449
+msgid "Spotify"
+msgstr "Spotify"
+
+#: inc/catchresponsive-default-options.php:453
+msgid "Foursquare"
+msgstr "Foursquare"
+
+#: inc/catchresponsive-default-options.php:445
+msgid "DropBox"
+msgstr "DropBox"
+
+#: inc/catchresponsive-default-options.php:441
+msgid "Pocket"
+msgstr "Pocket"
+
+#: inc/catchresponsive-default-options.php:437
+msgid "Stumbleupon"
+msgstr "Stumbleupon"
+
+#: inc/catchresponsive-default-options.php:433
+msgid "Reddit"
+msgstr "Reddit"
+
+#: inc/catchresponsive-default-options.php:429
+msgid "Digg"
+msgstr "Digg"
+
+#: inc/catchresponsive-default-options.php:425
+msgid "Skype"
+msgstr "Skype"
+
+#: inc/catchresponsive-default-options.php:421
+msgid "Dribbble"
+msgstr "Dribbble"
+
+#: inc/catchresponsive-default-options.php:417
+msgid "Path"
+msgstr "Adresas (path)"
+
+#: inc/catchresponsive-default-options.php:413
+msgid "CodePen"
+msgstr "CodePen"
+
+#: inc/catchresponsive-default-options.php:409
+msgid "PollDaddy"
+msgstr "PollDaddy"
+
+#: inc/catchresponsive-default-options.php:405
+msgid "Instagram"
+msgstr "Instagram"
+
+#: inc/catchresponsive-default-options.php:401
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: inc/catchresponsive-default-options.php:397
+msgid "YouTube"
+msgstr "YouTube"
+
+#: inc/catchresponsive-default-options.php:393
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: inc/catchresponsive-default-options.php:389
+msgid "Flickr"
+msgstr "Flickr"
+
+#: inc/catchresponsive-default-options.php:385
+#: inc/customizer-includes/catchresponsive-customizer-custom-controls.php:82
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: inc/catchresponsive-default-options.php:381
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: inc/catchresponsive-default-options.php:377
+msgid "GitHub"
+msgstr "GitHub"
+
+#: inc/catchresponsive-default-options.php:373
+msgid "WordPress"
+msgstr "WordPress"
+
+#: inc/catchresponsive-default-options.php:369
+msgid "Feed"
+msgstr "Kanalas"
+
+#: inc/catchresponsive-default-options.php:365
+#: inc/catchresponsive-social-icons.php:36
+msgid "Email"
+msgstr "Email"
+
+#: inc/catchresponsive-default-options.php:361
+msgid "Googleplus"
+msgstr "Googleplus"
+
+#: inc/catchresponsive-default-options.php:357
+#: inc/customizer-includes/catchresponsive-customizer-custom-controls.php:74
+msgid "Twitter"
+msgstr " Twitter socialiniuose tinkluose"
+
+#: inc/catchresponsive-default-options.php:353
+#: inc/customizer-includes/catchresponsive-customizer-custom-controls.php:70
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/catchresponsive-default-options.php:332
+msgid "Full Size"
+msgstr "Pilnas"
+
+#: inc/catchresponsive-default-options.php:331
+msgid "Featured"
+msgstr "Рекомендуемые"
+
+#: inc/catchresponsive-default-options.php:317
+msgid "Infinite Scroll (Scroll)"
+msgstr "Begalinis slinkimas (slinkimas)"
+
+#: inc/catchresponsive-default-options.php:316
+msgid "Infinite Scroll (Click)"
+msgstr "Begalinis slinkimas (paspaudimas)"
+
+#: inc/catchresponsive-default-options.php:315
+msgid "Numeric"
+msgstr "Skaitinė"
+
+#: inc/catchresponsive-default-options.php:314
+msgid "Default(Older Posts/Newer Posts)"
+msgstr "Įprastas (senesni pranešimai/naujesni pranešimai)"
+
+#: inc/catchresponsive-default-options.php:300
+msgid "False"
+msgstr "Netiesa"
+
+#: inc/catchresponsive-default-options.php:299
+msgid "Wait"
+msgstr "Laukti"
+
+#: inc/catchresponsive-default-options.php:298
+msgid "True"
+msgstr "Tiesa"
+
+#: inc/catchresponsive-default-options.php:284
+msgid "Shuffle"
+msgstr "Maišyti"
+
+#: inc/catchresponsive-default-options.php:283
+msgid "Tile Blind"
+msgstr "Plytelių užuolaida"
+
+#: inc/catchresponsive-default-options.php:282
+msgid "Tile Slide"
+msgstr "Plytelių slinkimas"
+
+#: inc/catchresponsive-default-options.php:281
+msgid "Flip Vertical"
+msgstr "Apsukti vertikaliai"
+
+#: inc/catchresponsive-default-options.php:280
+msgid "Flip Horizontal"
+msgstr "Apsukti horizontaliai"
+
+#: inc/catchresponsive-default-options.php:279
+msgid "Scroll Vertical"
+msgstr "Slinkti vertikaliai"
+
+#: inc/catchresponsive-default-options.php:278
+msgid "Scroll Horizontal"
+msgstr "Slinkti horizontaliai"
+
+#: inc/catchresponsive-default-options.php:277
+msgid "None"
+msgstr "Нет"
+
+#: inc/catchresponsive-default-options.php:276
+msgid "Fade Out"
+msgstr "Išnykti"
+
+#: inc/catchresponsive-default-options.php:275
+msgid "Fade"
+msgstr "Stelbti"
+
+#: inc/catchresponsive-default-options.php:246
+msgid "Hide Content"
+msgstr "Slepti turinį"
+
+#: inc/catchresponsive-default-options.php:245
+msgid "Show Full Content"
+msgstr "Rodyti pilną turinį"
+
+#: inc/catchresponsive-default-options.php:230
+msgid "4 columns"
+msgstr "4 stulpeliai"
+
+#: inc/catchresponsive-default-options.php:229
+msgid "3 columns"
+msgstr "3 stulpeliai"
+
+#: inc/catchresponsive-default-options.php:184
+msgid "Slider Image"
+msgstr "Slankiklio paveiksliukas"
+
+#: inc/catchresponsive-default-options.php:183
+msgid "Large Image"
+msgstr "Didelis paveiksliukas"
+
+#: inc/catchresponsive-default-options.php:182
+#: inc/catchresponsive-default-options.php:567
+msgid "Full Image"
+msgstr "Visas paveiksliukas"
+
+#: inc/catchresponsive-default-options.php:168
+#: inc/catchresponsive-default-options.php:200
+#: inc/catchresponsive-default-options.php:333
+msgid "Disabled"
+msgstr "Neįgaliesiems"
+
+#: inc/catchresponsive-default-options.php:167
+msgid "Pages and Posts"
+msgstr "Puslapiai ir įrašai"
+
+#: inc/catchresponsive-default-options.php:166
+msgid "Entire Site, Page/Post Featured Image"
+msgstr "Visas tinklapis, puslapio/įrašo reklaminis paveiksliukas"
+
+#: inc/catchresponsive-default-options.php:165
+#: inc/catchresponsive-default-options.php:199
+msgid "Entire Site"
+msgstr "Visas tinklapis"
+
+#: inc/catchresponsive-default-options.php:164
+msgid "Excluding Homepage, Page/Post Featured Image"
+msgstr "Išskyrus pradžią, puslapio/įrašo reklaminis paveiksliukas"
+
+#: inc/catchresponsive-default-options.php:163
+msgid "Excluding Homepage"
+msgstr "Išskyrus pradžią"
+
+#: inc/catchresponsive-default-options.php:162
+#: inc/catchresponsive-default-options.php:198
+msgid "Homepage / Frontpage"
+msgstr "Pradžia / titulinis"
+
+#: inc/catchresponsive-default-options.php:148
+msgid "Show Full Content (No Featured Image)"
+msgstr "Rodyti visą turinį (be reklaminio paveikslėlio)"
+
+#: inc/catchresponsive-default-options.php:147
+#: inc/catchresponsive-default-options.php:244
+msgid "Show Excerpt"
+msgstr "Rodyti Ištrauką"
+
+#: inc/catchresponsive-default-options.php:134
+#: inc/catchresponsive-default-options.php:514
+msgid "No Sidebar ( Content Width )"
+msgstr "Be šoninės juostos (turinio plotis)"
+
+#: inc/catchresponsive-default-options.php:133
+#: inc/catchresponsive-default-options.php:509
+msgid "Content, Primary Sidebar"
+msgstr "Turinys, pagrindinė šoninė juosta"
+
+#: inc/catchresponsive-default-options.php:132
+#: inc/catchresponsive-default-options.php:504
+msgid "Primary Sidebar, Content"
+msgstr "Pagrindinė šoninė juosta, turinys"
+
+#: inc/catchresponsive-default-options.php:118
+msgid "Dark"
+msgstr "Tamsi"
+
+#: inc/catchresponsive-default-options.php:117
+msgid "Light"
+msgstr "Šviesių spalvų"
+
+#: inc/catchresponsive-default-options.php:88
+msgid "Here you can showcase the x number of Featured Content."
+msgstr "Čia Jūs galite demonstruoti x skaičių reklaminio turinio."
+
+#: inc/catchresponsive-default-options.php:87
+#: inc/catchresponsive-featured-content.php:56
+#: inc/customizer-includes/catchresponsive-customizer-featured-content-setting.php:21
+#: inc/customizer-includes/catchresponsive-customizer-featured-content-setting.php:34
+msgid "Featured Content"
+msgstr "Rekomenduojami įrašai"
+
+#: inc/catchresponsive-default-options.php:75
+msgid "Search..."
+msgstr "Paieška..."
+
+#: inc/catchresponsive-default-options.php:70
+msgid "Reviews"
+msgstr "Отзывы"
+
+#: inc/catchresponsive-default-options.php:69
+msgid "This is promotion headline. You can edit this from Appearance -> Customize -> Theme Options -> Promotion Headline Options"
+msgstr "Tai yra skatinamoji antraštė. Galite redaguoti ją per Išvaizda -> Tinkinti -> Temos parinktys -> Reklaminės antraštės parinktys"
+
+#: inc/catchresponsive-default-options.php:68
+msgid "Catch Responsive is a Premium Responsive WordPress Theme"
+msgstr "Catch Responsive yra aukščiausios kokybės reaguojanti WordPress tema"
+
+#: inc/catchresponsive-default-options.php:57
+msgid "Read More ..."
+msgstr "Skaityti toliau ..."
+
+#: inc/catchresponsive-core.php:1451
+msgid "Previous post:"
+msgstr "Ankstesnis įrašas:"
+
+#: inc/catchresponsive-core.php:1450
+msgid "&larr; Previous"
+msgstr "&larr; Ankstesnis"
+
+#: inc/catchresponsive-core.php:1448
+msgid "Next post:"
+msgstr "Kitas įrašas:"
+
+#: inc/catchresponsive-core.php:1447
+msgid "Next &rarr;"
+msgstr "Kitas &rarr;"
+
+#: inc/catchresponsive-core.php:1405
+msgid "By"
+msgstr "pagal"
+
+#: inc/catchresponsive-core.php:1404
+msgid "Posted on"
+msgstr "Paskelbta"
+
+#: inc/catchresponsive-core.php:1386
+msgid "Scroll Up"
+msgstr "Slinkti aukštyn"
+
+#: inc/catchresponsive-core.php:777
+msgctxt "Used before tag names."
+msgid "<span class=\"screen-reader-text\">Tags</span>"
+msgstr "<span class=\"screen-reader-text\">Žymės</span>"
+
+#: inc/catchresponsive-core.php:769
+msgctxt "Used before category names."
+msgid "<span class=\"screen-reader-text\">Categories</span>"
+msgstr "<span class=\"screen-reader-text\">Kategorijos</span>"
+
+#: inc/catchresponsive-core.php:766 inc/catchresponsive-core.php:774
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ", "
+
+#: inc/catchresponsive-core.php:745
+msgid "% Comments"
+msgstr "Komentarų: %"
+
+#: inc/catchresponsive-core.php:745
+msgid "1 Comment"
+msgstr "Komentarų: 1"
+
+#: inc/catchresponsive-core.php:745
+msgid "Leave a comment"
+msgstr "Komentuoti"
+
+#: inc/catchresponsive-core.php:627
+msgid "Your comment is awaiting moderation."
+msgstr "Jūsų komentaras laukia patvirtinimo."
+
+#: inc/catchresponsive-core.php:620
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr "%1$s %2$s"
+
+#: inc/catchresponsive-core.php:614
+msgid "%s <span class=\"says\">says:</span>"
+msgstr "%s <span class=\"says\">parašė:</span>"
+
+#: inc/catchresponsive-core.php:604
+msgid "Pingback:"
+msgstr "Atgalinis pranešimas"
+
+#: inc/catchresponsive-core.php:582
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Naujesni įrašai <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/catchresponsive-core.php:581
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Senesni įrašai"
+
+#: inc/catchresponsive-core.php:572 inc/catchresponsive-core.php:1465
+msgid "Post navigation"
+msgstr "Įrašo naršymas"
+
+#. Translators: If there are characters in your language that are not supported
+#. by Droid Sans, translate this to 'off'. Do not translate into your own
+#. language.
+#: inc/catchresponsive-core.php:189
+msgctxt "Droid Sans font: on or off"
+msgid "on"
+msgstr "Įjungti"
+
+#. Translators: If there are characters in your language that are not supported
+#. by Open Sans, translate this to 'off'. Do not translate into your own
+#. language.
+#: inc/catchresponsive-core.php:183
+msgctxt "Open Sans font: on or off"
+msgid "on"
+msgstr "on"
+
+#: inc/catchresponsive-core.php:89 inc/catchresponsive-menus.php:69
+msgid "Secondary Menu"
+msgstr "Antrinis meniu"
+
+#: inc/catchresponsive-core.php:88 inc/catchresponsive-menus.php:27
+msgid "Primary Menu"
+msgstr "Pagrindinis meniu"
+
+#: inc/catchresponsive-breadcrumb.php:222
+msgid "Page %s"
+msgstr "%s puslapis"
+
+#: inc/catchresponsive-breadcrumb.php:62
+msgid "Error 404"
+msgstr "Ошибка 404"
+
+#: inc/catchresponsive-breadcrumb.php:61
+msgid "%1$sView all posts by %2$s"
+msgstr "%1$sPeržiūrėti įrašus pagal %2$s"
+
+#: inc/catchresponsive-breadcrumb.php:60
+msgid "%1$sPosts tagged %2$s"
+msgstr "%1$sĮrašai pažymėti %2$s"
+
+#: inc/catchresponsive-breadcrumb.php:59
+msgid "%1$sSearch results for: %2$s"
+msgstr "%1$sPaieškos rezultatal: %2$s"
+
+#: inc/catchresponsive-breadcrumb.php:58
+msgid "%1$s Archive for %2$s"
+msgstr "%1$s archyvas %2$s"
+
+#: inc/catchresponsive-breadcrumb.php:57
+msgid "Home"
+msgstr "Namo"
+
+#: content-page.php:35 inc/catchresponsive-core.php:604
+#: inc/catchresponsive-core.php:623 inc/catchresponsive-core.php:749
+msgid "Edit"
+msgstr "Редактировать"
+
+#: content-page.php:28 content-single.php:31 content.php:46
+msgid "Pages:"
+msgstr "Puslapiai:"
+
+#: content-none.php:30 no-results.php:29
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Deja, neradome to, ko Jūs ieškote. Galbūt pasisektų, jei pasinaudotumėte paieška."
+
+#: content-none.php:25 no-results.php:24
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Deja, pagal Jūsų užklausą nieko nerasta. Pabandykite dar kartą, naudodami kitokius raktažodžius."
+
+#: content-none.php:21 no-results.php:20
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Pasirengę paskelbti pirmąjį įrašą? <a href=\"%1$s\">Pradėkite čia</a>."
+
+#: content-none.php:15
+msgid "Nothing Found"
+msgstr "Nepavyko rasti"
+
+#: comments.php:87
+msgid "Comments are closed."
+msgstr "Komentarai uždrausti."
+
+#: comments.php:52 comments.php:77
+msgid "Newer Comments &rarr;"
+msgstr "Naujesni komentarai &rarr;"
+
+#: comments.php:51 comments.php:76
+msgid "&larr; Older Comments"
+msgstr "&larr; Senesni komentarai"
+
+#: comments.php:50 comments.php:75
+msgid "Comment navigation"
+msgstr "Komentaro naršymas"
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:34
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s mintis apie &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s mintys apie &ldquo;%2$s&rdquo;"
+msgstr[2] "%1$s minčių apie &ldquo;%2$s&rdquo;"
+
+#: sidebar.php:57
+msgid "Archives"
+msgstr "Archyvai"
+
+#: 404.php:24
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Nieko nerasta. Galbūt pabandykite vieną iš nuorodų žemiau, arba paiešką?"
+
+#: 404.php:19
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Deja, toks puslapis nerastas."
+
+#. Author URI of the plugin/theme
+msgid "https://catchthemes.com/"
+msgstr "https://catchthemes.com/"
+
+#. Author of the plugin/theme
+msgid "Catch Themes"
+msgstr "Catch Themes"
+
+#. Theme URI of the plugin/theme
+msgid "https://catchthemes.com/themes/catch-responsive/"
+msgstr "https://catchthemes.com/themes/catch-responsive/"

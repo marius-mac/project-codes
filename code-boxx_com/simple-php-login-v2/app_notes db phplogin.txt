@@ -1,0 +1,4 @@
+https://code-boxx.com/simple-php-login-page-database/
+
+
+admin user with email “admin@test.com” and a password of “123456”

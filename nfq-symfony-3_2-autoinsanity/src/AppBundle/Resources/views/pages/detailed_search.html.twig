@@ -1,0 +1,161 @@
+{% extends '@App/includes/search_form.html.twig' %}
+
+{% block title %}
+    {{ 'title.detailed_search'|trans }}
+{% endblock %}
+
+{% block body %}
+    <h3>{{ 'title.detailed_search'|trans }}</h3>
+    {{ form_start(searchForm, { attr: {novalidate: 'novalidate'} }) }}
+    <div class="row">
+        <div class="col-md-3 col-sm-6">
+            {{ form_row(searchForm.brand) }}
+        </div>
+        <div class="col-md-3 col-sm-6">
+            {{ form_row(searchForm.model) }}
+        </div>
+        <div class="col-md-3 col-sm-6">
+            {{ form_row(searchForm.country) }}
+        </div>
+        <div class="col-md-3 col-sm-6">
+            {{ form_row(searchForm.city) }}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3 col-sm-6">
+            <div class="row">
+                <div class="col-md-6 col-xs-6">
+                    {{ form_row(searchForm.year_from) }}
+                </div>
+                <div class="col-md-6 col-xs-6">
+                    {{ form_row(searchForm.year_to) }}
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="row">
+                <div class="col-md-6 col-xs-6">
+                    {{ form_row(searchForm.price_from) }}
+                </div>
+                <div class="col-md-6 col-xs-6">
+                    {{ form_row(searchForm.price_to) }}
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="row">
+                <div class="col-md-6 col-xs-6">
+                    {{ form_row(searchForm.mileage_from) }}
+                </div>
+                <div class="col-md-6 col-xs-6">
+                    {{ form_row(searchForm.mileage_to) }}
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="row">
+                <div class="col-md-6 col-xs-6">
+                    {{ form_row(searchForm.engine_size_from) }}
+                </div>
+                <div class="col-md-6 col-xs-6">
+                    {{ form_row(searchForm.engine_size_to) }}
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3 col-sm-6">
+            {{ form_row(searchForm.body_type) }}
+        </div>
+        <div class="col-md-3 col-sm-6">
+            {{ form_row(searchForm.fuel_type) }}
+        </div>
+        <div class="col-md-3 col-sm-6">
+            {{ form_row(searchForm.doors_number) }}
+        </div>
+        <div class="col-md-3 col-sm-6">
+            {{ form_row(searchForm.drive_type) }}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3 col-sm-6">
+            {{ form_row(searchForm.steering_wheel) }}
+        </div>
+        <div class="col-md-3 col-sm-6">
+            {{ form_row(searchForm.color) }}
+        </div>
+        <div class="col-md-3 col-sm-6">
+            {{ form_row(searchForm.sort_type) }}
+        </div>
+        <div class="col-md-3 col-sm-6">
+            {{ form_row(searchForm.last_ad_update) }}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 form-more-fields">
+            <button
+                    type="button"
+                    class="btn btn-default btn-sm collapsed"
+                    data-toggle="collapse"
+                    data-target="#search-more-fields"
+                    aria-expanded="false">
+                {{ 'form.button.view_more'|trans() }}
+            </button>
+        </div>
+    </div>
+    <div id="search-more-fields" class="row collapse">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    {{ form_row(searchForm.transmission) }}
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    {{ form_row(searchForm.climate_control) }}
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    {{ form_row(searchForm.seats_number) }}
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    {{ form_row(searchForm.wheelsDiameter) }}
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    {{ form_row(searchForm.gears_number) }}
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    {{ form_row(searchForm.defects) }}
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    {{ form_row(searchForm.next_check_year) }}
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    {{ form_row(searchForm.first_country) }}
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="row">
+                        <div class="col-md-6 col-xs-6">
+                            {{ form_row(searchForm.power_from) }}
+                        </div>
+                        <div class="col-md-6 col-xs-6">
+                            {{ form_row(searchForm.power_to) }}
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    {{ form_row(searchForm.provider) }}
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row text-center">
+        <button type="submit" class="btn btn-primary btn-lg search-form-button">{{ 'form.button.search'|trans }}</button>
+    </div>
+    {{ form_end(searchForm, {'render_rest': false}) }}
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+{% endblock %}

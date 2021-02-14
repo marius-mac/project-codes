@@ -1,0 +1,42 @@
+{% extends 'AppBundle::base.html.twig' %}
+
+{% block title %}
+    {{ 'title.settings'|trans }}
+{% endblock %}
+
+
+{% block body %}
+    <div class="row ">
+        <div class="col-md-12">
+            <h3>{{ block('title') }}</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            {% if app.request.hasPreviousSession %}
+                {% for type, messages in app.session.flashbag.all() %}
+                    {% for message in messages %}
+                        <div class="flash-{{ type }}">
+                            {{ message }}
+                        </div>
+                    {% endfor %}
+                {% endfor %}
+            {% endif %}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            {% set form = editProfileForm %}
+            {% include('@FOSUser/Profile/edit.html.twig') %}
+        </div>
+        <div class="col-md-6">
+            {% set form = changePasswordForm %}
+            {% include('@FOSUser/ChangePassword/change_password.html.twig') %}
+        </div>
+    </div>
+{% endblock %}
+
+{% block javascripts %}
+
+{% endblock %}
+

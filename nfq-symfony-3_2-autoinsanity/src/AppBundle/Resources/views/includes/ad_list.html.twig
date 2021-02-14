@@ -1,0 +1,246 @@
+{% block ad_list %}
+    {% for item in items %}
+        <div class="panel panel-default">
+            <div class="row ad-container">
+                <div class="col-md-5 col-xs-12">
+                    <a href="{{ item.link }}" target="_blank">
+                        {% if item.image is not null %}
+                            <img src="{{ asset(img_dir ~ '/' ~ item.image) | imagine_filter('ad_thumb') }}"
+                                 class="img-responsive ad-image" />
+                        {% endif %}
+                    </a>
+                </div>
+                <div class="col-md-7">
+                    <div class="row">
+                        <div class="col-md-8 col-xs-12">
+                            <a href="{{ item.link }}" target="_blank">
+                                <h3 class="ad-title"><b>{{ item.brand.name }} {{ item.model.name }}</b></h3>
+                            </a>
+                        </div>
+                        <div class="col-md-4 col-xs-12 text-right">
+                            <button
+                                type="button"
+                                {% if app.user and app.user.pinnedVehicles.contains(item) %}
+                                    class="unpin vehicle-pin-button btn btn-default"
+                                {% else %}
+                                    class="pin vehicle-pin-button btn btn-default"
+                                {% endif %}
+                                value="{{ item.id }}"
+                                data-toggle="popover"
+                                data-content="{{ include('@App/includes/login_popup.html.twig') }}">
+                                {% if app.user and app.user.pinnedVehicles.contains(item) %}
+                                        <span class="glyphicon glyphicon-heart"></span>
+                                        <b>{{ 'results.pin.pinned'|trans() }}</b>
+                                {% else %}
+                                        <span class="glyphicon glyphicon-heart-empty"></span>
+                                        {{ 'results.pin.unpinned'|trans() }}
+                                {% endif %}
+                            </button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-xs-12">
+                            <ul class="list-unstyled ad-fields-list">
+                                {% if item.year is not null %}
+                                    <li>
+                                        {{ 'advert.field.name.year'|trans() }}:
+                                        <b>{{ item.year|year }}</b>
+                                    </li>
+                                {% endif %}
+                                {% if item.engineSize is not null %}
+                                    <li>
+                                        {{ 'advert.field.name.engine_size'|trans() }}:
+                                        <b>{{ item.engineSize|engineSize() }}</b>
+                                    </li>
+                                {% endif %}
+                                {% if item.bodyType.name is defined %}
+                                    <li>
+                                        {{ 'advert.field.name.body_type'|trans() }}:
+                                        <b>{{ item.bodyType.name|lower }}</b>
+                                    </li>
+                                {% endif %}
+                                {% if item.fuelType.name is defined %}
+                                    <li>
+                                        {{ 'advert.field.name.fuel_type'|trans() }}:
+                                        <b>{{ item.fuelType.name|lower }}</b>
+                                    </li>
+                                {% endif %}
+                            </ul>
+                        </div>
+                        <div class="col-md-6 col-xs-12">
+                            <ul class="list-unstyled">
+                                {% if item.power is not null %}
+                                    <li>
+                                        {{ 'advert.field.name.power'|trans() }}:
+                                        <b>{{ item.power|power() }}</b>
+                                    </li>
+                                {% endif %}
+                                {% if item.mileage is not null %}
+                                    <li>
+                                        {{ 'advert.field.name.mileage'|trans() }}:
+                                        <b>{{ item.mileage|mileage() }}</b>
+                                    </li>
+                                {% endif %}
+                                {% if item.driveType is not null %}
+                                    <li>
+                                        {{ 'advert.field.name.drive_type'|trans() }}:
+                                        <b>
+                                            {% if item.driveType == 0 %}
+                                                {{ 'advert.field.value.drive_type.manual'|trans() }}
+                                            {% elseif item.driveType == 1 %}
+                                                {{ 'advert.field.value.drive_type.auto'|trans() }}
+                                            {% endif %}
+                                        </b>
+                                    </li>
+                                {% endif %}
+                                {% if item.steeringWheel is not null %}
+                                    <li>
+                                        {{ 'advert.field.name.steering_wheel'|trans() }}:
+                                        <b>
+                                            {% if item.steeringWheel == 0 %}
+                                                {{ 'advert.field.value.steering_wheel.left'|trans() }}
+                                            {% elseif item.steeringWheel == 1 %}
+                                                {{ 'advert.field.value.steering_wheel.right'|trans() }}
+                                            {% endif %}
+                                        </b>
+                                    </li>
+                                {% endif %}
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 button-more-fields">
+                            <a
+                                    data-toggle="collapse"
+                                    data-target="#more-info-{{ loop.index }}"
+                                    aria-expanded="false">
+                                {{ 'advert.button.show_more'|trans() }}
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row collapse" id="more-info-{{ loop.index }}">
+                        <div class="col-md-6 col-xs-12">
+                            <ul class="list-unstyled ad-fields-list">
+                                {% if item.doorsNumber is not null %}
+                                    <li>
+                                        {{ 'advert.field.name.doors_number'|trans() }}:
+                                        <b>{{ item.doorsNumber }}</b>
+                                    </li>
+                                {% endif %}
+                                {% if item.seatsNumber is not null %}
+                                    <li>
+                                        {{ 'advert.field.name.seats_number'|trans() }}:
+                                        <b>{{ item.seatsNumber }}</b>
+                                    </li>
+                                {% endif %}
+                                {% if item.color.name is defined %}
+                                    <li>
+                                        {{ 'advert.field.name.color'|trans() }}:
+                                        <b>{{ item.color.name|lower }}</b>
+                                    </li>
+                                {% endif %}
+                                {% if item.firstCountry.name is defined  %}
+                                    <li>
+                                        {{ 'advert.field.name.first_country'|trans() }}:
+                                        <b>{{ item.firstCountry.name }}</b>
+                                    </li>
+                                {% endif %}
+                                {% if item.transmission.name is defined  %}
+                                    <li>
+                                        {{ 'advert.field.name.transmission'|trans() }}:
+                                        <b>{{ item.transmission.name|lower() }}</b>
+                                    </li>
+                                {% endif %}
+                                {% if item.provider.name is defined  %}
+                                    <li>
+                                        {{ 'advert.field.name.provider'|trans() }}:
+                                        <b>{{ item.provider.name }}</b>
+                                    </li>
+                                {% endif %}
+                                {% if item.lastAdUpdate is not null  %}
+                                    <li>
+                                        {{ 'advert.field.name.last_update'|trans() }}:
+                                        <b>{{ item.lastAdUpdate|dateago() }}</b>
+                                    </li>
+                                {% endif %}
+                            </ul>
+                        </div>
+                        <div class="col-md-6 col-xs-12">
+                            <ul class="list-unstyled ad-fields-list">
+                                {% if item.cliamteControl.name is defined  %}
+                                    <li>
+                                        {{ 'advert.field.name.climate_control'|trans() }}:
+                                        <b>{{ item.climateControl.name|lower() }}</b>
+                                    </li>
+                                {% endif %}
+                                {% if item.defects.name is defined  %}
+                                    <li>
+                                        {{ 'advert.field.name.defects'|trans() }}:
+                                        <b>{{ item.defects.name|lower() }}</b>
+                                    </li>
+                                {% endif %}
+                                {% if item.wheelsDiameter is not null  %}
+                                    <li>
+                                        {{ 'advert.field.name.wheels_diameter'|trans() }}:
+                                        <b>{{ item.wheelsDiameter|wheelsDiameter() }}</b>
+                                    </li>
+                                {% endif %}
+                                {% if item.nextCheckYear is not null  %}
+                                    <li>
+                                        {{ 'advert.field.name.next_check'|trans() }}:
+                                        <b>{{ item.nextCheckYear|year() }}</b>
+                                    </li>
+                                {% endif %}
+                                {% if item.weight is not null  %}
+                                    <li>
+                                        {{ 'advert.field.name.weight'|trans() }}:
+                                        <b>{{ item.weight|weight() }}</b>
+                                    </li>
+                                {% endif %}
+                                {% if item.gearsNumber is not null  %}
+                                    <li>
+                                        {{ 'advert.field.name.gears_number'|trans() }}:
+                                        <b>{{ item.gearsNumber }}</b>
+                                    </li>
+                                {% endif %}
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 col-xs-12">
+                            <h3 class="ad-price">{{ item.price|price() }}</h3>
+                        </div>
+                        <div class="col-md-4 col-xs-6">
+                            <h4 class="ad-location">
+                                {% if item.city.name is defined %}
+                                    {{ item.city.name }}
+                                {% endif %}
+                                {% if item.country.name is defined and item.country.name != 'Lietuva' %}
+                                    , {{ item.country.name }}
+                                {% endif %}
+                            </h4>
+                        </div>
+                        <div class="col-md-4 col-xs-6 text-right">
+                            <a href="{{ item.link }}" class="btn btn-primary" target="_blank">
+                                {{ 'advert.button.view_ad'|trans }}
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+{% endblock %}
+
+{% block ad_list_javascripts %}
+    <script>
+        // expand fields in results
+        $('.button-more-fields a').click(function () {
+            var btnText =
+                ($(this).text().trim() === "{{ 'advert.button.show_more'|trans() }}")
+                    ? "{{ 'advert.button.show_less'|trans() }}"
+                    : "{{ 'advert.button.show_more'|trans() }}"
+            $(this).text(btnText);
+        });
+    </script>
+{% endblock %}

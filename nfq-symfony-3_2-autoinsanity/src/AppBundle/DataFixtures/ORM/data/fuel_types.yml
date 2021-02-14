@@ -1,0 +1,12 @@
+fuel_types:
+    - { name: "Dyzelinas" }
+    - { name: "Benzinas" }
+    - { name: "Benzinas / dujos" }
+    - { name: "Benzinas / elektra" }
+    - { name: "Elektra" }
+    - { name: "Dyzelinas / elektra" }
+    - { name: "Dyzelinas / dujos" }
+    - { name: "Bioetanolis (E85)" }
+    - { name: "Dujos" }
+    - { name: "Benzinas / gamtinės dujos" }
+    - { name: "Kita" }

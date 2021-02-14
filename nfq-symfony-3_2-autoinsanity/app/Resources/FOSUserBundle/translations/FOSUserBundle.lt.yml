@@ -1,0 +1,38 @@
+form:
+    group_name: 'Grupės vardas'
+    username: 'Naudotojo vardas'
+    email: 'El. paštas'
+    current_password: 'Įveskite dabartinį slaptažodį'
+    password: 'Slaptažodis'
+    password_confirmation: 'Pakartokite slaptažodį'
+    new_password: 'Įveskite naują slaptažodį'
+    new_password_confirmation: 'Pakartokite naują slaptažodį'
+    current_email: 'Dabartinis el. pašto adresas'
+    new_email: 'Įveskite naują el. pašto adresą'
+
+resetting:
+    check_email: 'Jūsų nurodytu el. pašto adresu išsiųstas pranešimas. Jame rasite nuorodą, kurią paspaudę, galėsite pakeisti savo slaptažodį.'
+    email:
+        message: |
+            Sveiki!
+
+            Norėdami pakeisti savo slaptažodį, apsilankykite adresu %confirmationUrl%
+
+            AutoInsanity
+    request:
+        email: 'Jūsų el. pašto adresas'
+
+security:
+    login:
+        email: 'El. paštas'
+        remember_me: 'Įsiminti mane'
+
+registration:
+    email:
+        message: |
+            Sveiki!
+
+            Norėdami aktyvuoti savo paskyrą, apsilankykite adresu %confirmationUrl%
+
+            AutoInsanity
+

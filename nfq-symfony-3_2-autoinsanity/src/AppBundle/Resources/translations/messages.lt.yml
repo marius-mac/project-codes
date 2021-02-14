@@ -1,0 +1,234 @@
+advert:
+    button:
+        view_ad: 'Eiti į skelbimą'
+        show_more: 'Išskleisti daugiau ypatumų'
+        show_less: 'Suskleisti ypatumus'
+    field:
+        name:
+            year: 'Pagaminimo data'
+            engine_size: 'Darbinis tūris'
+            power: 'Galia'
+            mileage: 'Rida'
+            body_type: 'Kėbulo tipas'
+            fuel_type: 'Kuro tipas'
+            drive_type: 'Pavarų dėžė'
+            steering_wheel: 'Vairo padėtis'
+            color: 'Spalva'
+            doors_number: 'Durų skaičius'
+            seats_number: 'Sėdimų vietų skaičius'
+            defects: 'Defektai'
+            transmission: 'Varantieji ratai'
+            wheels_diameter: 'Padangų diametras'
+            climate_control: 'Klimato valdymas'
+            weight: 'Automobilio masė'
+            next_check: 'Tech. apžiūra galioja iki'
+            first_country: 'Pirmos reg. valstybė'
+            gears_number: 'Pavarų skaičius'
+            provider: 'Skelbimo tiekėjas'
+            last_update: 'Atnaujintas'
+        value:
+            steering_wheel:
+                left: 'kairėje'
+                right: 'dešinėje'
+            drive_type:
+                manual: 'mechaninė'
+                auto: 'automatinė'
+
+date:
+    short:
+        year: 'm.'
+        month: 'mėn.'
+        week: 'sav.'
+        day: 'd.'
+        hour: 'val.'
+        minute: 'min'
+        second: 's'
+    others:
+        ago: 'prieš'
+
+header:
+    link:
+        detailed_search: 'Detalioji paieška'
+        searches: 'Mano paieškos'
+        pinned: 'Išsaugoti skelbimai'
+        settings: 'Nustatymai'
+        change_password: 'Keisti slaptažodį'
+        change_email: 'Keisti el. pašto adresą'
+        logout: 'Atsijungti'
+        register: 'Užsiregistruoti'
+        login: 'Prisijungti'
+
+form:
+    button:
+        detailed_search: 'Eiti į detaliąją paiešką'
+        update: 'Atnaujinti paiešką'
+        search: 'Ieškoti'
+        view_more: 'Žiūrėti daugiau parinkčių'
+        view_less: 'Žiūrėti mažiau parinkčių'
+    choice:
+        all: 'Pasirinkti viską'
+        not_older_than:
+            1_day: '1 dienos'
+            3_days: '3 dienų'
+            1_week: '1 savaitės'
+            2_weeks: '2 savaičių'
+            1_month: '1 mėnesio'
+            3_months: '3 mėnesių'
+        sort:
+            cost_min: 'pirmiau pigiausi'
+            cost_max: 'pirmiau brangiausi'
+            date_new: 'pirmiau naujausi'
+            date_old: 'pirmiau seniausi'
+        steering_wheel:
+            left: 'Kairė'
+            right: 'Dešinė'
+        drive_type:
+            manual: 'Mechaninė'
+            auto: 'Automatinė'
+    header:
+        update_form: 'Pakeiskite dabartinę paiešką'
+    field:
+        brand: 'Markė'
+        model: 'Modelis'
+        country: 'Valstybė'
+        city: 'Miestas'
+        price_from: 'Kaina nuo'
+        price_to: 'Kaina iki'
+        year_from: 'Metai nuo'
+        year_to: 'Metai iki'
+        fuel_type: 'Kuro tipas'
+        body_type: 'Kėbulo tipas'
+        provider: 'Skelbimų šaltinis'
+        engine_size_from: 'Variklio tūris nuo'
+        engine_size_to: 'Variklio tūris iki'
+        power_from: 'Galia nuo'
+        power_to: 'Galia iki'
+        doors_number: 'Durų skaičius'
+        seats_number: 'Sėdimų vietų skaičius'
+        defects: 'Defektai'
+        drive_type: 'Pavarų dėžė'
+        climate_control: 'Klimato kontrolė'
+        color: 'Spalva'
+        steering_wheel: 'Vairo padėtis'
+        wheels_diameter: 'Padangų diametras'
+        mileage_from: 'Rida nuo'
+        mileage_to: 'Rida iki'
+        transmission: 'Varantieji ratai'
+        sort: 'Skelbimų eiliškumas'
+        next_check: 'Tech. apžiūra galioja iki'
+        gears_number: 'Pavarų skaičius'
+        first_country: 'Pirmosios registracijos valstybė'
+        not_older_than: 'Skelbimai ne senesnis kaip:'
+
+    placeholder:
+        all:
+            brand: 'Visos markės'
+            model: 'Visi modeliai'
+            country: 'Visos valstybės'
+            city: 'Visi miestai'
+            fuel_type: 'Visi kuro tipai'
+            body_type: 'Visi kėbulo tipai'
+            provider: 'Bet koks puslapis'
+            color: 'Visos spalvos'
+            steering_wheel: 'Bet kokia padėtis'
+            defects: 'Nesvarbu'
+            drive_type: 'Bet kokia pavarų dėžė'
+            transmission: 'Bet kokie varantieji ratai'
+            climate_control: 'Bet kokia klimato kontrolė'
+            next_check: 'Nesvarbu'
+            first_country: 'Visos valstybės'
+            not_older_than: 'Nesvarbu'
+            doors_number: 'Nesvarbu'
+            seats_number: 'Nesvarbu'
+            wheels_diameter: 'Nesvarbu'
+            gears_number: 'Nesvarbu'
+            not_specified: 'Nesvarbu'
+        choices: 'pasirinkimai'
+        search: 'Ieškoti...'
+
+pagination:
+    previous: 'Atgal'
+    next: 'Kitas'
+
+popup:
+    login: 'Norėdami naudotis šia funkcija privalote prisijungti'
+
+results:
+    error:
+        no_pinned: 'Jūs neturite jokių išsaugotų skelbimų'
+        no_results: 'Skelbimų pagal nurodytus paieškos kriterijus nebuvo rasta.'
+        no_searches: 'Nerasta jokių išsaugotų paieškų'
+    features:
+    pin:
+        pinned: 'Išsaugota'
+        unpinned: 'Išsaugoti'
+
+searches:
+    button:
+        view: 'Ieškoti skelbimų'
+        view_more: 'Žiūrėti paieškas'
+        view_less: 'Slėpti paieškas'
+    field:
+        brand: 'Markė'
+        models: 'Modeliai'
+        country: 'Valstybė'
+        cities: 'Miestai'
+        body_type: 'Kėbulo tipai'
+        fuel_type: 'Kuro tipai'
+        price_from: 'Kaina nuo'
+        price_to: 'Kaina iki'
+        year_from: 'Metai nuo'
+        year_to: 'Metai iki'
+        engine_size_from: 'Variklio tūris nuo'
+        engine_size_to: 'Variklio tūris iki'
+        power_from: 'Galia nuo'
+        power_to: 'Galia iki'
+        doors_number: 'Durų skaičius'
+        seats_number: 'Sėdimų vietų skaičius'
+        defects: 'Defektai'
+        drive_type: 'Pavarų dėžė'
+        climate_control: 'Klimato kontrolė'
+        colors: 'Spalvos'
+        steering_wheel: 'Vairo padėtis'
+        wheels_diameter: 'Padangų diametras'
+        mileage_from: 'Rida nuo'
+        mileage_to: 'Rida iki'
+        transmission: 'Varantieji ratai'
+        sort_type: 'Rūšiavimas'
+        next_check_year: 'Tech. apžiūra galioja iki'
+        gears_number: 'Pavarų skaičius'
+        first_countries: 'Pirmosios registracijos valstybės'
+        providers: 'Skelbimų šaltiniai'
+        last_ad_update: 'Paskutinį kartą atnaujintas'
+    name:
+        search: 'Paieška'
+    pin:
+        pinned: 'Paieška išsaugota'
+        unpinned: 'Išsaugoti paiešką'
+    value:
+        sort:
+            cost_min: 'pirmiau pigiausi'
+            cost_max: 'pirmiau brangiausi'
+            date_new: 'pirmiau naujausi'
+            date_old: 'pirmiau seniausi'
+
+subtitle:
+    searches_recent: 'Mano paskutinės paieškos'
+    searches_saved: 'Mano išsaugotos paieškos'
+
+title:
+    index: 'Pagrindinis'
+    detailed_search: 'Detalioji paieška'
+    pinned: 'Mano išsaugoti skelbimai'
+    searches: 'Mano paieškos'
+    results: 'Paieškos rezultatai'
+    pagination: '(%page% psl. iš %pages%)'
+    website_name: 'AutoInsanity'
+    login: 'Prisijungimas'
+    register: 'Registracija'
+    change_password: 'Slaptažodžio keitimas'
+    remind_password: 'Slaptažodžio priminimas'
+    reset_password: 'Slaptažodžio atkūrimas'
+    edit_profile: 'El. pašto adreso atnaujinimas'
+
+

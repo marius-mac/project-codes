@@ -1,0 +1,7 @@
+{% extends "@FOSUser/layout.html.twig" %}
+
+{% set title = 'title.reset_password'|trans() %}
+
+{% block fos_user_content %}
+{% include "@FOSUser/Resetting/reset_content.html.twig" %}
+{% endblock fos_user_content %}
