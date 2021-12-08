@@ -1,9 +1,0 @@
-defects:
-    - { name: 'Be defektų' }
-    - { name: 'Daužtas' }
-    - { name: 'Degęs' }
-    - { name: 'Pavarų dėžės defektas' }
-    - { name: 'Pažeistas krušos' }
-    - { name: 'Skendęs' }
-    - { name: 'Variklio defektas' }
-    - { name: 'Kiti stambūs defektai' }

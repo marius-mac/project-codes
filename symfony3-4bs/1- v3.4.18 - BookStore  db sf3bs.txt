@@ -1,3 +1,0 @@
-https://www.tutorialspoint.com/symfony/symfony_complete_working_example.htm
-
-Symfony - Working Example

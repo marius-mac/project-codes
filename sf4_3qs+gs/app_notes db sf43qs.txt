@@ -1,7 +1,0 @@
-qs
-https://medium.com/@mlbors/getting-started-with-symfony-4-9169583a1710 
-
-+
-
-gs
-https://codereviewvideos.com/course/symfony-4-beginners-tutorial/video/getting-started-with-symfony-4

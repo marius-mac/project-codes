@@ -1,1 +1,0 @@
-<hr /><?=$footer_text;?></body></html>
